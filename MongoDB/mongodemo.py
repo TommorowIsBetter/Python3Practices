@@ -11,14 +11,15 @@ from pymongo import MongoClient
 # 连接MongoDB的目标Ip地址，端口号为27017
 client = MongoClient('192.168.1.103', 27017)
 # 这里选择MongoDB的test的数据库
-db = client.test
+db = client.wypredata
 # 定义一个列表
 dataset = []
 # 查询col的数据并获得游标
-cursor = db.col2.find({})
+cursor = db.col1.find({})
 for doc in cursor:
     # 把_id属性去除，后面插入到新集合的时候会自动生成新的_id
     doc.pop('_id')
+    doc.pop('jsonname')
     # 获取到的数据加入到列表中
     dataset.append(doc)
 print("append over")
