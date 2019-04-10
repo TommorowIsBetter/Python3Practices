@@ -15,11 +15,15 @@ def get_hserver_name():
     """ 获取最新的hserver名字，例如hserver4"""
     with open('/opt/hadoop/hadoop-2.8.5/etc/hadoop/slaves', 'r') as fp:
         lines = fp.readlines()
-        last_line = lines[-1]
-    number = re.findall("\d*\d", last_line)
-    number_order = int(number[0]) + 1
-    base_str = "hserver"
-    machine_name = base_str + str(number_order) + "\n"
+        if len(lines) != 0:
+            last_line = lines[-1]
+    if len(lines) != 0:
+        number = re.findall("\d*\d", last_line)
+        number_order = int(number[0]) + 1
+        base_str = "hserver"
+        machine_name = base_str + str(number_order) + "\n"
+    else:
+        machine_name = "hserver2" + "\n"
     return machine_name
 
 
@@ -27,11 +31,15 @@ def get_hserver_host_name():
     """ 获取最新的hserver名字，例如hserver4"""
     with open('/opt/hadoop/hadoop-2.8.5/etc/hadoop/slaves', 'r') as fp:
         lines = fp.readlines()
-        last_line = lines[-1]
-    number = re.findall("\d*\d", last_line)
-    number_order = int(number[0]) + 1
-    base_str = "hserver"
-    machine_name = base_str + str(number_order)
+        if len(lines) != 0:
+            last_line = lines[-1]
+    if len(lines) != 0:
+        number = re.findall("\d*\d", last_line)
+        number_order = int(number[0]) + 1
+        base_str = "hserver"
+        machine_name = base_str + str(number_order)
+    else:
+        machine_name = "hserver2"
     return machine_name
 
 
