@@ -7,6 +7,8 @@
 """
 import re
 import sys
+import os
+import time
 
 
 def get_hserver_name():
@@ -54,4 +56,11 @@ ip = sys.argv[1]
 add_hosts(ip)
 # 在/hadoop/slaves中添加新加机器的记录
 add_salves()
+# 关闭hadoop集群系统
+os.system("/opt/hadoop/hadoop-2.8.5/sbin/stop-all.sh")
+# 在这里延时10s钟
+time.sleep(10)
+# 重新启动hadoop系统,即可在web界面查看到新加入到机器中的结点
+os.system("/opt/hadoop/hadoop-2.8.5/sbin/start-all.sh")
+
 
