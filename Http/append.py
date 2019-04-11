@@ -4,6 +4,7 @@
 @author:Wang Yan
 @ide:PyCharm
 @time:2019/4/6 15:10
+该脚本的作用是把新加入结点ip地址和对应的主机名写入到/etc/hosts文件中，然后在hadoop/slaves也写入相应的内容。
 """
 import re
 import sys

@@ -4,6 +4,7 @@
 @author:Wang Yan
 @ide:PyCharm
 @time:2019/4/6 13:40
+该脚本的作用是当data node启动的时候，可以把data node的ip地址传到name node从而实现扩充的作用。
 """
 
 import requests
