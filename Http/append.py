@@ -58,12 +58,26 @@ def add_hosts(ip_address):
         f.write(record_host)
 
 
+def is_exist(ip_address):
+    """ 判断新加入的主机ip地址是否已经在/etc/hosts文件中 """
+    lines = []
+    with open('/etc/hosts', 'r') as f:
+        for line in f:
+            lines.append(line)
+    for line in lines:
+        for i in line.split():
+            if i == ip_address:
+                return True
+    return False
+
+
 # 获取外部传入过来的参数
 ip = sys.argv[1]
 # 在/etc/hosts文件中添加新加机器的记录
-add_hosts(ip)
-# 在/hadoop/slaves中添加新加机器的记录
-add_salves()
+if is_exist(ip) is False:
+    add_hosts(ip)
+    # 在/hadoop/slaves中添加新加机器的记录
+    add_salves()
 # 关闭hadoop集群系统
 os.system("/opt/hadoop/hadoop-2.8.5/sbin/stop-all.sh")
 # 在这里延时10s钟
