@@ -11,7 +11,7 @@ import struct
 import socket
 import fcntl
 import os
-
+import time
 
 def get_ip(ifconfig_name):
     """只需要指定网卡接口, 例如：eth0"""
@@ -40,5 +40,7 @@ def set_hosts(ip_address):
 ip = get_ip('enp0s3')
 # 设置/etc/hosts
 set_hosts(ip)
+# 延时5秒钟
+time.sleep(5)
 # 启动hadoop系统
 os.system("/opt/hadoop/hadoop-2.8.5/sbin/start-all.sh")

@@ -10,6 +10,7 @@ import re
 import sys
 import os
 import time
+import subprocess
 
 
 def get_hserver_name():
@@ -72,6 +73,56 @@ def is_exist(ip_address):
     return False
 
 
+def scp_remote(user, password, ip, localsource, remotedest, port=22):
+    """ 向远程ip地址scp文件过去  """
+    scp_cmd_base = r"""
+            expect -c "
+            set timeout 300 ;
+            spawn scp -P {port} -r {localsource} {username}@{host}:{remotedest} ;
+            expect *assword* {{{{ send {password}\r }}}}  ;
+            expect *\r ;
+            expect \r ;
+            expect eof
+            "
+    """.format(username=user, password=password, host=ip, localsource=localsource, remotedest=remotedest, port=port)
+    SCP_CMD = scp_cmd_base.format(localsource=localsource)
+    print("execute SCP_CMD: ", SCP_CMD)
+    p = subprocess.Popen(SCP_CMD, stdout=subprocess.PIPE, stderr=subprocess.PIPE, shell=True)
+    p.communicate()
+    os.system(SCP_CMD)
+
+
+def is_ip(str_ip):
+    """  该函数的作用是判断一个字符串是否是ip地址"""
+    p = re.compile('^((25[0-5]|2[0-4]\d|[01]?\d\d?)\.){3}(25[0-5]|2[0-4]\d|[01]?\d\d?)$')
+    if p.match(str_ip):
+        return True
+    else:
+        return False
+
+
+def get_ip_list():
+    """ 获取连接到name node结点的所有data node结点的ip地址 """
+    # lines列表代表读取的/etc/hosts的所有行
+    lines = []
+    # ips列表用于存储所有的data node的ip地址
+    ips = []
+    with open('/etc/hosts', 'r') as f:
+        for line in f:
+            lines.append(line)
+    for line in lines[2:]:
+        for i in line.split():
+            if is_ip(i) is True:
+                ips.append(i)
+    return ips
+
+
+def scp_all_remote(ip_list):
+    """ 向所有的data node传送/etc/hosts文件"""
+    for ip in ip_list:
+        scp_remote("root", "123456", ip, "/etc/hosts", "/etc/", 22)
+
+
 # 获取外部传入过来的参数
 ip = sys.argv[1]
 # 在/etc/hosts文件中添加新加机器的记录
@@ -79,11 +130,12 @@ if is_exist(ip) is False:
     add_hosts(ip)
     # 在/hadoop/slaves中添加新加机器的记录
     add_salves()
-# 关闭hadoop集群系统
-os.system("/opt/hadoop/hadoop-2.8.5/sbin/stop-all.sh")
-# 在这里延时10s钟
-time.sleep(10)
-# 重新启动hadoop系统,即可在web界面查看到新加入到机器中的结点
-os.system("/opt/hadoop/hadoop-2.8.5/sbin/start-all.sh")
+    # 获取所有的data node的ip地址
+    ip_lists = get_ip_list()
+    # 向所有的data node传送/etc/hosts
+    scp_all_remote(ip_lists)
+    # 刷新nodes，是data node加入进来可以显示
+    os.system("hdfs dfsadmin -refreshNodes")
+
 
 

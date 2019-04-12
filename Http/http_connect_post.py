@@ -11,6 +11,8 @@ import requests
 import struct
 import socket
 import fcntl
+import os
+import time
 
 
 def get_ip(ifconfig_name):
@@ -38,10 +40,18 @@ def client_requests(request_url, request_data):
 
 
 # 获取本机ip地址
-ip = get_ip('enp0s3')
+ip = get_ip('eth0')
 # 把ip地址添加到json报文里面，准备传给服务器端
 json_data = {'ip': ip}
-response_data = client_requests("http://192.168.1.100:8080/MapReduce/AnalysisJsonServlet", json_data)
+response_data = client_requests("http://192.168.1.177:80/MapReduce/AnalysisJsonServlet", json_data)
 print(response_data)
+# 输出一些提示信息
+print("now it is running. start datanode and nodemanager")
+# 启动data node的datanode进程
+os.system("/opt/hadoop/hadoop-2.8.5/sbin/hadoop-daemon.sh start datanode")
+# 延时2秒钟启动node manager
+time.sleep(2)
+# 启动node manager
+os.system("/opt/hadoop/hadoop-2.8.5/sbin/yarn-daemon.sh start nodemanager")
 
 
