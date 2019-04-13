@@ -2,14 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a916822a-d6aa-4b14-a705-283a3f522a47" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Http/hadoop_setting.ini" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Http/hadoop_setting.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Selenium/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Selenium/htmlunit.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Http/namenode_ip.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/Python3Practices.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Python3Practices.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/wangyan.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/wangyan.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Http/http_connect_post.py" beforeDir="false" afterPath="$PROJECT_DIR$/Http/http_connect_post.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -40,17 +37,17 @@
     <SUITE FILE_PATH="coverage/PythonPractices$mysql_delete.coverage" NAME="mysql_delete Coverage Results" MODIFIED="1553756283528" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Mysql" />
     <SUITE FILE_PATH="coverage/PythonPractices$EmotionAnalysis.coverage" NAME="EmotionAnalysis Coverage Results" MODIFIED="1554200070949" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Nlp" />
     <SUITE FILE_PATH="coverage/PythonPractices$mysql_example.coverage" NAME="mysql_example Coverage Results" MODIFIED="1553695430923" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Mysql" />
-    <SUITE FILE_PATH="coverage/Python3Practices$http_connect_post.coverage" NAME="http_connect_post Coverage Results" MODIFIED="1554540052909" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Http" />
+    <SUITE FILE_PATH="coverage/Python3Practices$http_connect_post.coverage" NAME="http_connect_post Coverage Results" MODIFIED="1555143710955" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Http" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Http/hadoop_setting.py">
+        <entry file="file://$PROJECT_DIR$/Http/http_connect_post.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="600">
-              <caret line="20" selection-start-line="20" selection-end-line="20" />
+            <state relative-caret-position="634">
+              <caret line="64" lean-forward="true" selection-start-line="64" selection-end-line="64" />
               <folding>
-                <element signature="e#141#150#0" expanded="true" />
+                <element signature="e#168#183#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -61,6 +58,27 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="30">
               <caret line="1" column="9" selection-start-line="1" selection-start-column="9" selection-end-line="1" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Http/hadoop_setting.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="364">
+              <caret line="20" selection-start-line="20" selection-end-line="20" />
+              <folding>
+                <element signature="e#141#150#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Http/namenode_ip.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="13" selection-start-column="13" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -104,7 +122,6 @@
         <option value="$PROJECT_DIR$/Selenium/htmlunit.py" />
         <option value="$PROJECT_DIR$/Http/b.py" />
         <option value="$PROJECT_DIR$/Http/a.py" />
-        <option value="$PROJECT_DIR$/Http/http_connect_post.py" />
         <option value="$PROJECT_DIR$/Http/auto_set_hosts.py" />
         <option value="$PROJECT_DIR$/Http/append.py" />
         <option value="$PROJECT_DIR$/Http/upload_file.py" />
@@ -112,6 +129,8 @@
         <option value="$PROJECT_DIR$/Http/data_node_setting.py" />
         <option value="$PROJECT_DIR$/Http/hadoop_setting.py" />
         <option value="$PROJECT_DIR$/Http/hadoop_setting.ini" />
+        <option value="$PROJECT_DIR$/Http/namenode_ip.txt" />
+        <option value="$PROJECT_DIR$/Http/http_connect_post.py" />
       </list>
     </option>
   </component>
@@ -165,7 +184,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.hadoop_setting">
+  <component name="RunManager" selected="Python.http_connect_post">
     <configuration name="a" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Python3Practices" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -232,6 +251,28 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="http_connect_post" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Python3Practices" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Http" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Http/http_connect_post.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="upload_file" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Python3Practices" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -254,28 +295,13 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests in htmlunit.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <module name="Python3Practices" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Selenium" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/Selenium/htmlunit.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.http_connect_post" />
         <item itemvalue="Python.hadoop_setting" />
         <item itemvalue="Python.data_node_setting" />
         <item itemvalue="Python.upload_file" />
         <item itemvalue="Python.a" />
-        <item itemvalue="Python tests.Unittests in htmlunit.py" />
       </list>
     </recent_temporary>
   </component>
@@ -312,7 +338,7 @@
       <workItem from="1554988109876" duration="107000" />
       <workItem from="1555034080837" duration="10804000" />
       <workItem from="1555069296309" duration="2918000" />
-      <workItem from="1555137385217" duration="4201000" />
+      <workItem from="1555137385217" duration="6759000" />
     </task>
     <task id="LOCAL-00001" summary="Add some methods that are used to deal with Json problems.">
       <created>1553677149614</created>
@@ -391,7 +417,14 @@
       <option name="project" value="LOCAL" />
       <updated>1555046452581</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Add the reboot function of linux os.">
+      <created>1555143012417</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1555143012417</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -415,11 +448,10 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="92660000" />
+    <option name="totallyTimeSpent" value="95218000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16577825" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -460,7 +492,8 @@
     <MESSAGE value="Update the append.py to fix the repeated ip and machine name of /etc/hosts and hadoop/slaves." />
     <MESSAGE value="Add descriptions in append.py and http_connect_post.py." />
     <MESSAGE value="Add the function of scp /etc/hosts to remote machine." />
-    <option name="LAST_COMMIT_MESSAGE" value="Add the function of scp /etc/hosts to remote machine." />
+    <MESSAGE value="Add the reboot function of linux os." />
+    <option name="LAST_COMMIT_MESSAGE" value="Add the reboot function of linux os." />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/six.py" />
@@ -582,9 +615,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="540">
           <caret line="39" column="43" lean-forward="true" selection-start-line="39" selection-start-column="43" selection-end-line="39" selection-end-column="43" />
-          <folding>
-            <element signature="e#131#161#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -606,16 +636,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Http/http_connect_post.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="389">
-          <caret line="57" lean-forward="true" selection-start-line="57" selection-end-line="57" />
-          <folding>
-            <element signature="e#168#183#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Http/auto_set_hosts.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="532">
@@ -633,12 +653,29 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Http/namenode_ip.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="13" selection-start-column="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Http/hadoop_setting.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
+        <state relative-caret-position="364">
           <caret line="20" selection-start-line="20" selection-end-line="20" />
           <folding>
             <element signature="e#141#150#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Http/http_connect_post.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="634">
+          <caret line="64" lean-forward="true" selection-start-line="64" selection-end-line="64" />
+          <folding>
+            <element signature="e#168#183#0" expanded="true" />
           </folding>
         </state>
       </provider>

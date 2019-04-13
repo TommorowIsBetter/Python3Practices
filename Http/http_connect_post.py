@@ -39,11 +39,20 @@ def client_requests(request_url, request_data):
     return respon_data
 
 
+def by_config_ip():
+    """  根据配置文件获取本机ip地址 """
+    with open("/opt/namenode_ip.txt") as f:
+        line = f.readline()
+    return line
+
+
+# 获取name node的ip地址
+name_node_ip = by_config_ip()
 # 获取本机ip地址
 ip = get_ip('eth0')
 # 把ip地址添加到json报文里面，准备传给服务器端
 json_data = {'ip': ip}
-response_data = client_requests("http://192.168.1.177:80/MapReduce/AnalysisJsonServlet", json_data)
+response_data = client_requests("http://" + name_node_ip + ":80/MapReduce/AnalysisJsonServlet", json_data)
 print(response_data)
 # 输出一些提示信息
 print("now it is running. start datanode and nodemanager")
@@ -53,5 +62,3 @@ os.system("/opt/hadoop/hadoop-2.8.5/sbin/hadoop-daemon.sh start datanode")
 time.sleep(2)
 # 启动node manager
 os.system("/opt/hadoop/hadoop-2.8.5/sbin/yarn-daemon.sh start nodemanager")
-
-
