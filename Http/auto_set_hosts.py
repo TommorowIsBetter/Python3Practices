@@ -36,10 +36,18 @@ def set_hosts(ip_address):
     print(lines)
 
 
+def add_salves():
+    """ 更新salves文件，插入新添加到hadoop集群的机器名字 """
+    with open('/opt/hadoop/hadoop-2.8.5/etc/hadoop/slaves', 'a') as f:
+        f.write("hserver1\n")
+
+
 # 获得主机当前ip地址
 ip = get_ip('enp0s3')
 # 设置/etc/hosts
 set_hosts(ip)
+# 添加相应的hserver1到hadoop/slaves下面
+add_salves()
 # 延时5秒钟
 time.sleep(5)
 # 启动hadoop系统
