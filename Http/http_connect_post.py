@@ -37,7 +37,7 @@ def client_requests(request_url, request_data):
     print('服务端的响应报文为（客户端 <--服务端）: ', respon_data)
     print("get the status: ", r.status_code)
     # 返回请求响应报文
-    return respon_data,status_code
+    return respon_data, status_code
 
 
 def by_config_ip():
@@ -73,8 +73,8 @@ time.sleep(5)
 response_status_code = 0
 while response_status_code != 200:
     time.sleep(5)
-    response_data, response_status_code = client_requests("http://" + name_node_ip
-                                                         + ":80/MapReduce/AnalysisJsonServlet", json_data)
+    response_data, response_status_code = client_requests("http://" + name_node_ip +
+                                                          ":80/MapReduce/AnalysisJsonServlet", json_data)
 print(response_data)
 # 输出一些提示信息
 print("now it is running. start datanode and nodemanager")
