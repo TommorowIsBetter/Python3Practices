@@ -31,12 +31,13 @@ def client_requests(request_url, request_data):
     print('客户端请求JSON报文数据为（客户端 --> 服务端）:\n', request_data)
     # 客户端发送请求报文服务端
     r = requests.post(request_url, data=request_data, headers=head)
+    status_code = r.status_code
     # 获取服务端的响应报文数据
     respon_data = r.text
     print('服务端的响应报文为（客户端 <--服务端）: ', respon_data)
     print("get the status: ", r.status_code)
     # 返回请求响应报文
-    return respon_data
+    return respon_data,status_code
 
 
 def by_config_ip():
@@ -46,13 +47,34 @@ def by_config_ip():
     return line
 
 
+def socket_port(ip, port):
+    """  输入IP和端口号，扫描判断端口是否占用 """
+    s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+    result = s.connect_ex((ip, port))
+    if result == 0:
+        # 表示该端口被占用
+        return True
+    else:
+        # 表示该端口未被占用
+        return False
+
+
 # 获取name node的ip地址
 name_node_ip = by_config_ip()
 # 获取本机ip地址
 ip = get_ip('eth0')
 # 把ip地址添加到json报文里面，准备传给服务器端
 json_data = {'ip': ip}
-response_data = client_requests("http://" + name_node_ip + ":80/MapReduce/AnalysisJsonServlet", json_data)
+# 等待ssh服务启动正常
+while not socket_port("127.0.0.1", 22):
+    time.sleep(5)
+# 等待正常
+time.sleep(5)
+response_status_code = 0
+while response_status_code != 200:
+    time.sleep(5)
+    response_data, response_status_code = client_requests("http://" + name_node_ip
+                                                         + ":80/MapReduce/AnalysisJsonServlet", json_data)
 print(response_data)
 # 输出一些提示信息
 print("now it is running. start datanode and nodemanager")
