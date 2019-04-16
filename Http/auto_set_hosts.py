@@ -36,19 +36,26 @@ def set_hosts(ip_address):
     print(lines)
 
 
+def hserver1_is_exist():
+    """  判断hserver1是否存在"""
+    with open('/opt/hadoop/hadoop-2.8.5/etc/hadoop/slaves', 'r') as f:
+        lines = f.readlines()
+    for line in lines:
+        if line.strip("\n") == "hserver1":
+            return True
+    return False
+
+
 def add_salves():
     """ 更新salves文件，插入新添加到hadoop集群的机器名字 """
     with open('/opt/hadoop/hadoop-2.8.5/etc/hadoop/slaves', 'a') as f:
-        f.write("hserver1\n")
+        if hserver1_is_exist() is False:
+            f.write("hserver1\n")
 
 
 # 获得主机当前ip地址
-ip = get_ip('enp0s3')
+ip = get_ip('eth0')
 # 设置/etc/hosts
 set_hosts(ip)
 # 添加相应的hserver1到hadoop/slaves下面
 add_salves()
-# 延时5秒钟
-time.sleep(5)
-# 启动hadoop系统
-os.system("/opt/hadoop/hadoop-2.8.5/sbin/start-all.sh")
