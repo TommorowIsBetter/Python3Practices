@@ -59,3 +59,13 @@ ip = get_ip('eth0')
 set_hosts(ip)
 # 添加相应的hserver1到hadoop/slaves下面
 add_salves()
+# 启动hadoop集群
+# os.system("/opt/hadoop/hadoop-2.8.5/sbin/start-all.sh")
+# 通过函数可以返回具体的值来判断hadoop集群是否启动
+result = os.popen("jps | grep NameNode | wc -l").read()
+print "result:" + result
+# 如果为2,则Name node进程已经正常启动，如果不是，则循环知道hadoop正常
+while int(result) != 2:
+    time.sleep(5)
+    os.system("/opt/hadoop/hadoop-2.8.5/sbin/start-all.sh")
+    result = os.popen("jps | grep NameNode | wc -l").read()

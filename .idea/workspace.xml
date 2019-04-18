@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a916822a-d6aa-4b14-a705-283a3f522a47" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Http/namenode_ip.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/Python3Practices.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Python3Practices.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Http/http_connect_post.py" beforeDir="false" afterPath="$PROJECT_DIR$/Http/http_connect_post.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Http/auto_set_hosts.py" beforeDir="false" afterPath="$PROJECT_DIR$/Http/auto_set_hosts.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,70 +14,69 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/PythonPractices$mysql_create.coverage" NAME="mysql_create Coverage Results" MODIFIED="1553755196887" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Mysql" />
-    <SUITE FILE_PATH="coverage/PythonPractices$mysql_insert.coverage" NAME="mysql_insert Coverage Results" MODIFIED="1553755617387" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Mysql" />
     <SUITE FILE_PATH="coverage/Python3Practices$data_node_setting.coverage" NAME="data_node_setting Coverage Results" MODIFIED="1555139403467" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Http" />
     <SUITE FILE_PATH="coverage/Python3Practices$append.coverage" NAME="append Coverage Results" MODIFIED="1554541103960" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Http" />
     <SUITE FILE_PATH="coverage/Python3Practices$Unittests_in_htmlunit_py.coverage" NAME="Unittests in htmlunit.py Coverage Results" MODIFIED="1554988190540" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Selenium" />
-    <SUITE FILE_PATH="coverage/Python3Practices$json_example__1_.coverage" NAME="json_example (1) Coverage Results" MODIFIED="1554267608485" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Json" />
-    <SUITE FILE_PATH="coverage/Python3Practices$a.coverage" NAME="a Coverage Results" MODIFIED="1555035920317" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Http" />
+    <SUITE FILE_PATH="coverage/Python3Practices$Unittests_for_test_selenium_EditOrder_test_edit_order.coverage" NAME="Unittests for test_selenium.EditOrder.test_edit_order Coverage Results" MODIFIED="1555325639230" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Selenium" />
     <SUITE FILE_PATH="coverage/PythonPractices$json.coverage" NAME="json Coverage Results" MODIFIED="1553673458243" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/JSON" />
-    <SUITE FILE_PATH="coverage/Python3Practices$mongodemo.coverage" NAME="mongodemo Coverage Results" MODIFIED="1554605068802" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MongoDB" />
     <SUITE FILE_PATH="coverage/PythonPractices$mysql_select.coverage" NAME="mysql_select Coverage Results" MODIFIED="1553755840219" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Mysql" />
     <SUITE FILE_PATH="coverage/PythonPractices$json_example.coverage" NAME="json_example Coverage Results" MODIFIED="1554200042681" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Json" />
-    <SUITE FILE_PATH="coverage/PythonPractices$a__1_.coverage" NAME="a (1) Coverage Results" MODIFIED="1553739667557" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Mysql" />
-    <SUITE FILE_PATH="coverage/Python3Practices$mysql_connect.coverage" NAME="mysql_connect Coverage Results" MODIFIED="1554269796990" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Mysql" />
     <SUITE FILE_PATH="coverage/PythonPractices$a.coverage" NAME="a Coverage Results" MODIFIED="1554199455759" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/PythonPractices$TS.coverage" NAME="TS Coverage Results" MODIFIED="1553674408679" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/NLP" />
-    <SUITE FILE_PATH="coverage/Python3Practices$EmotionAnalysis__1_.coverage" NAME="EmotionAnalysis (1) Coverage Results" MODIFIED="1554267703624" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Nlp" />
-    <SUITE FILE_PATH="coverage/Python3Practices$auto_set_hosts.coverage" NAME="auto_set_hosts Coverage Results" MODIFIED="1554903735777" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Http" />
-    <SUITE FILE_PATH="coverage/Python3Practices$hadoop_setting.coverage" NAME="hadoop_setting Coverage Results" MODIFIED="1555142513117" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Http" />
     <SUITE FILE_PATH="coverage/Python3Practices$upload_file.coverage" NAME="upload_file Coverage Results" MODIFIED="1555070346765" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Http" />
     <SUITE FILE_PATH="coverage/PythonPractices$mysql_delete.coverage" NAME="mysql_delete Coverage Results" MODIFIED="1553756283528" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Mysql" />
     <SUITE FILE_PATH="coverage/PythonPractices$EmotionAnalysis.coverage" NAME="EmotionAnalysis Coverage Results" MODIFIED="1554200070949" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Nlp" />
-    <SUITE FILE_PATH="coverage/PythonPractices$mysql_example.coverage" NAME="mysql_example Coverage Results" MODIFIED="1553695430923" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Mysql" />
     <SUITE FILE_PATH="coverage/Python3Practices$http_connect_post.coverage" NAME="http_connect_post Coverage Results" MODIFIED="1555143710955" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Http" />
+    <SUITE FILE_PATH="coverage/PythonPractices$mysql_create.coverage" NAME="mysql_create Coverage Results" MODIFIED="1553755196887" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Mysql" />
+    <SUITE FILE_PATH="coverage/PythonPractices$mysql_insert.coverage" NAME="mysql_insert Coverage Results" MODIFIED="1553755617387" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Mysql" />
+    <SUITE FILE_PATH="coverage/Python3Practices$aa.coverage" NAME="aa Coverage Results" MODIFIED="1555330545585" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Http" />
+    <SUITE FILE_PATH="coverage/Python3Practices$json_example__1_.coverage" NAME="json_example (1) Coverage Results" MODIFIED="1554267608485" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Json" />
+    <SUITE FILE_PATH="coverage/Python3Practices$a.coverage" NAME="a Coverage Results" MODIFIED="1555035920317" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Http" />
+    <SUITE FILE_PATH="coverage/Python3Practices$mongodemo.coverage" NAME="mongodemo Coverage Results" MODIFIED="1554605068802" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MongoDB" />
+    <SUITE FILE_PATH="coverage/PythonPractices$a__1_.coverage" NAME="a (1) Coverage Results" MODIFIED="1553739667557" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Mysql" />
+    <SUITE FILE_PATH="coverage/Python3Practices$mysql_connect.coverage" NAME="mysql_connect Coverage Results" MODIFIED="1554269796990" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Mysql" />
+    <SUITE FILE_PATH="coverage/Python3Practices$Unittests_in_test_selenium_py.coverage" NAME="Unittests in test_selenium.py Coverage Results" MODIFIED="1555325690927" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Selenium" />
+    <SUITE FILE_PATH="coverage/Python3Practices$EmotionAnalysis__1_.coverage" NAME="EmotionAnalysis (1) Coverage Results" MODIFIED="1554267703624" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Nlp" />
+    <SUITE FILE_PATH="coverage/Python3Practices$auto_set_hosts.coverage" NAME="auto_set_hosts Coverage Results" MODIFIED="1554903735777" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Http" />
+    <SUITE FILE_PATH="coverage/Python3Practices$hadoop_setting.coverage" NAME="hadoop_setting Coverage Results" MODIFIED="1555142513117" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Http" />
+    <SUITE FILE_PATH="coverage/PythonPractices$mysql_example.coverage" NAME="mysql_example Coverage Results" MODIFIED="1553695430923" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Mysql" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Http/http_connect_post.py">
+        <entry file="file://$PROJECT_DIR$/Http/auto_set_hosts.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="634">
-              <caret line="64" lean-forward="true" selection-start-line="64" selection-end-line="64" />
+            <state relative-caret-position="333">
+              <caret line="57" column="14" lean-forward="true" selection-start-line="57" selection-start-column="14" selection-end-line="57" selection-end-column="14" />
               <folding>
-                <element signature="e#168#183#0" expanded="true" />
+                <element signature="e#192#205#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Http/hadoop_setting.ini">
+        <entry file="file://$PROJECT_DIR$/Http/start_hadoop.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="1" column="9" selection-start-line="1" selection-start-column="9" selection-end-line="1" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Http/hadoop_setting.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="364">
-              <caret line="20" selection-start-line="20" selection-end-line="20" />
+            <state relative-caret-position="330">
+              <caret line="11" column="54" selection-start-line="11" selection-start-column="54" selection-end-line="11" selection-end-column="54" />
               <folding>
-                <element signature="e#141#150#0" expanded="true" />
+                <element signature="e#107#116#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Http/namenode_ip.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="13" selection-start-column="13" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -118,11 +116,9 @@
         <option value="$PROJECT_DIR$/Http/a.log" />
         <option value="$PROJECT_DIR$/MongoDB/mongodemo.py" />
         <option value="$PROJECT_DIR$/Http/linux_command.py" />
-        <option value="$PROJECT_DIR$/Http/a.txt" />
         <option value="$PROJECT_DIR$/Selenium/htmlunit.py" />
         <option value="$PROJECT_DIR$/Http/b.py" />
         <option value="$PROJECT_DIR$/Http/a.py" />
-        <option value="$PROJECT_DIR$/Http/auto_set_hosts.py" />
         <option value="$PROJECT_DIR$/Http/append.py" />
         <option value="$PROJECT_DIR$/Http/upload_file.py" />
         <option value="$PROJECT_DIR$/Http/create_sort_data.py" />
@@ -130,14 +126,20 @@
         <option value="$PROJECT_DIR$/Http/hadoop_setting.py" />
         <option value="$PROJECT_DIR$/Http/hadoop_setting.ini" />
         <option value="$PROJECT_DIR$/Http/namenode_ip.txt" />
+        <option value="$PROJECT_DIR$/Http/scan_port.py" />
         <option value="$PROJECT_DIR$/Http/http_connect_post.py" />
+        <option value="$PROJECT_DIR$/Selenium/test_selenium.py" />
+        <option value="$PROJECT_DIR$/Http/a.txt" />
+        <option value="$PROJECT_DIR$/Http/aa.py" />
+        <option value="$PROJECT_DIR$/Http/start_hadoop.py" />
+        <option value="$PROJECT_DIR$/Http/auto_set_hosts.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-95" />
-    <option name="y" value="5" />
-    <option name="width" value="1250" />
+    <option name="x" value="25" />
+    <option name="y" value="386" />
+    <option name="width" value="960" />
     <option name="height" value="1040" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -146,7 +148,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -163,6 +164,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -184,8 +186,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.http_connect_post">
-    <configuration name="a" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.aa">
+    <configuration name="aa" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Python3Practices" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -198,29 +200,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Http/a.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="data_node_setting" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Python3Practices" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Http" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="F:\CommonFiles\PyCharmProject\Python3Practices\Http\hadoop_setting.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Http/aa.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -273,35 +253,43 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="upload_file" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="Unittests for test_selenium.EditOrder.test_edit_order" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="Python3Practices" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Http" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Selenium" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Http/upload_file.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_selenium.EditOrder.test_edit_order&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests in test_selenium.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="Python3Practices" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Selenium" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/Selenium/test_selenium.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.aa" />
+        <item itemvalue="Python tests.Unittests in test_selenium.py" />
+        <item itemvalue="Python tests.Unittests for test_selenium.EditOrder.test_edit_order" />
         <item itemvalue="Python.http_connect_post" />
         <item itemvalue="Python.hadoop_setting" />
-        <item itemvalue="Python.data_node_setting" />
-        <item itemvalue="Python.upload_file" />
-        <item itemvalue="Python.a" />
       </list>
     </recent_temporary>
   </component>
@@ -338,7 +326,12 @@
       <workItem from="1554988109876" duration="107000" />
       <workItem from="1555034080837" duration="10804000" />
       <workItem from="1555069296309" duration="2918000" />
-      <workItem from="1555137385217" duration="6759000" />
+      <workItem from="1555137385217" duration="7494000" />
+      <workItem from="1555222529700" duration="1152000" />
+      <workItem from="1555231951198" duration="2544000" />
+      <workItem from="1555308692018" duration="13362000" />
+      <workItem from="1555381890324" duration="2308000" />
+      <workItem from="1555554641633" duration="5405000" />
     </task>
     <task id="LOCAL-00001" summary="Add some methods that are used to deal with Json problems.">
       <created>1553677149614</created>
@@ -424,41 +417,89 @@
       <option name="project" value="LOCAL" />
       <updated>1555143012417</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Add set the name node ip according to the config file.">
+      <created>1555158597849</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1555158597849</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Update the auto_set_hosts.py to add hserver1 in hadoop/slaves.">
+      <created>1555232018740</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1555232018740</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Update the http_connect_post.py to send http request until sending http request is successful by checking the port 22.">
+      <created>1555323110770</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1555323110770</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Update the http_connect_post.py to send http request until sending http request is successful by checking the port 22.">
+      <created>1555323410504</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1555323410504</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Update the auto_set_hosts.py to fix the problem that hserver appear many&#10;times.">
+      <created>1555384845482</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1555384845485</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_in_htmlunit_py - 2019.04.11 at 19h 37m 18s.xml">
-      <configuration name="Unittests in htmlunit.py" configurationId="tests" />
+    <history-entry file="Unittests_in_test_selenium_py - 2019.04.14 at 17h 03m 06s.xml">
+      <configuration name="Unittests in test_selenium.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_htmlunit_py - 2019.04.11 at 19h 38m 19s.xml">
-      <configuration name="Unittests in htmlunit.py" configurationId="tests" />
+    <history-entry file="Unittests_in_test_selenium_py - 2019.04.14 at 22h 23m 42s.xml">
+      <configuration name="Unittests in test_selenium.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_htmlunit_py - 2019.04.11 at 21h 08m 52s.xml">
-      <configuration name="Unittests in htmlunit.py" configurationId="tests" />
+    <history-entry file="Unittests_in_test_selenium_py - 2019.04.14 at 22h 26m 18s.xml">
+      <configuration name="Unittests in test_selenium.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_htmlunit_py - 2019.04.11 at 21h 09m 15s.xml">
-      <configuration name="Unittests in htmlunit.py" configurationId="tests" />
+    <history-entry file="Unittests_in_test_selenium_py - 2019.04.15 at 18h 26m 11s.xml">
+      <configuration name="Unittests in test_selenium.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_htmlunit_py - 2019.04.11 at 21h 09m 39s.xml">
-      <configuration name="Unittests in htmlunit.py" configurationId="tests" />
+    <history-entry file="Unittests_in_test_selenium_py - 2019.04.15 at 18h 30m 21s.xml">
+      <configuration name="Unittests in test_selenium.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_htmlunit_py - 2019.04.11 at 21h 09m 58s.xml">
-      <configuration name="Unittests in htmlunit.py" configurationId="tests" />
+    <history-entry file="Unittests_in_test_selenium_py - 2019.04.15 at 18h 31m 15s.xml">
+      <configuration name="Unittests in test_selenium.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test_selenium_py - 2019.04.15 at 18h 47m 52s.xml">
+      <configuration name="Unittests in test_selenium.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test_selenium_py - 2019.04.15 at 18h 49m 27s.xml">
+      <configuration name="Unittests in test_selenium.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_selenium_EditOrder_test_edit_order - 2019.04.15 at 18h 55m 04s.xml">
+      <configuration name="Unittests for test_selenium.EditOrder.test_edit_order" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test_selenium_py - 2019.04.15 at 18h 55m 55s.xml">
+      <configuration name="Unittests in test_selenium.py" configurationId="tests" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="95218000" />
+    <option name="totallyTimeSpent" value="120724000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16577825" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17377399" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49840087" visible="true" weight="0.3560606" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.77132195" weight="0.17857143" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -466,7 +507,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="Messages" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50159913" side_tool="true" visible="true" weight="0.3560606" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.22867803" side_tool="true" weight="0.40800866" />
       <window_info anchor="bottom" id="Version Control" order="11" />
       <window_info anchor="bottom" id="Terminal" order="12" />
       <window_info anchor="bottom" id="Python Console" order="13" />
@@ -476,6 +517,30 @@
       <window_info anchor="right" id="SciView" order="3" />
       <window_info anchor="right" id="Database" order="4" />
     </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1705757" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.77132195" weight="0.35930735" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="8" />
+      <window_info anchor="bottom" id="Messages" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.22867803" side_tool="true" weight="0.40800866" />
+      <window_info anchor="bottom" id="Version Control" order="11" />
+      <window_info anchor="bottom" id="Terminal" order="12" />
+      <window_info anchor="bottom" id="Python Console" order="13" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -493,7 +558,22 @@
     <MESSAGE value="Add descriptions in append.py and http_connect_post.py." />
     <MESSAGE value="Add the function of scp /etc/hosts to remote machine." />
     <MESSAGE value="Add the reboot function of linux os." />
-    <option name="LAST_COMMIT_MESSAGE" value="Add the reboot function of linux os." />
+    <MESSAGE value="Add set the name node ip according to the config file." />
+    <MESSAGE value="Update the auto_set_hosts.py to add hserver1 in hadoop/slaves." />
+    <MESSAGE value="Update the http_connect_post.py to send http request until sending http request is successful by checking the port 22." />
+    <MESSAGE value="Update the auto_set_hosts.py to fix the problem that hserver appear many&#10;times." />
+    <option name="LAST_COMMIT_MESSAGE" value="Update the auto_set_hosts.py to fix the problem that hserver appear many&#10;times." />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Http/start_hadoop.py</url>
+          <line>15</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/six.py" />
@@ -591,7 +671,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Http/linux_command.py" />
-    <entry file="file://$PROJECT_DIR$/Http/a.txt" />
     <entry file="file://$APPLICATION_HOME_DIR$/helpers/typeshed/stdlib/3/unittest/__init__.pyi">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="8010">
@@ -599,57 +678,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CrossValidation/bpdemo.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="3" column="16" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Selenium/geckodriver.log">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Selenium/geckodriver.log" />
     <entry file="file://$PROJECT_DIR$/Http/b.py" />
     <entry file="file://$PROJECT_DIR$/Http/a.py" />
-    <entry file="file://$PROJECT_DIR$/Selenium/htmlunit.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="39" column="43" lean-forward="true" selection-start-line="39" selection-start-column="43" selection-end-line="39" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Http/append.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="573">
-          <caret line="137" column="36" selection-start-line="137" selection-start-column="36" selection-end-line="137" selection-end-column="36" />
-          <folding>
-            <element signature="e#172#181#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Selenium/htmlunit.py" />
     <entry file="file://$PROJECT_DIR$/Http/upload_file.py" />
-    <entry file="file://$PROJECT_DIR$/Http/create_sort_data.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="6" column="3" lean-forward="true" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Http/auto_set_hosts.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="532">
-          <caret line="36" selection-start-line="36" selection-end-line="36" />
-          <folding>
-            <element signature="e#192#205#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Http/create_sort_data.py" />
     <entry file="file://$PROJECT_DIR$/Http/hadoop_setting.ini">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="1" column="9" selection-start-line="1" selection-start-column="9" selection-end-line="1" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Http/scan_port.py" />
+    <entry file="file://$PROJECT_DIR$/Http/hadoop_setting.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+          <folding>
+            <element signature="e#141#150#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Http/http_connect_post.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="258">
+          <caret line="68" column="39" selection-start-line="68" selection-start-column="39" selection-end-line="68" selection-end-column="39" />
+          <folding>
+            <element signature="e#168#183#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -660,22 +719,42 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Http/hadoop_setting.py">
+    <entry file="file://$PROJECT_DIR$/Http/a.txt" />
+    <entry file="file://$PROJECT_DIR$/Http/aa.py" />
+    <entry file="file://$PROJECT_DIR$/Selenium/test_selenium.py" />
+    <entry file="file://$PROJECT_DIR$/Http/append.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
+        <state relative-caret-position="291">
+          <caret line="47" column="4" selection-start-line="47" selection-start-column="4" selection-end-line="47" selection-end-column="4" />
           <folding>
-            <element signature="e#141#150#0" expanded="true" />
+            <element signature="e#172#181#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Http/http_connect_post.py">
+    <entry file="file://$PROJECT_DIR$/CrossValidation/bpdemo.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="634">
-          <caret line="64" lean-forward="true" selection-start-line="64" selection-end-line="64" />
+        <state relative-caret-position="270">
+          <caret line="11" column="22" lean-forward="true" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Http/start_hadoop.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="11" column="54" selection-start-line="11" selection-start-column="54" selection-end-line="11" selection-end-column="54" />
           <folding>
-            <element signature="e#168#183#0" expanded="true" />
+            <element signature="e#107#116#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Http/auto_set_hosts.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="333">
+          <caret line="57" column="14" lean-forward="true" selection-start-line="57" selection-start-column="14" selection-end-line="57" selection-end-column="14" />
+          <folding>
+            <element signature="e#192#205#0" expanded="true" />
           </folding>
         </state>
       </provider>
