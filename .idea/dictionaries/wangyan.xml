@@ -2,6 +2,7 @@
   <dictionary name="wangyan">
     <words>
       <w>allemotion</w>
+      <w>asctime</w>
       <w>assword</w>
       <w>colxx</w>
       <w>datanode</w>
@@ -9,6 +10,7 @@
       <w>hdfs</w>
       <w>hserver</w>
       <w>jsonname</w>
+      <w>levelname</w>
       <w>lilei</w>
       <w>respon</w>
       <w>testdb</w>
