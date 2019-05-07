@@ -5,13 +5,13 @@
 @ide:PyCharm
 @time:2019/4/3 13:05
 """
-
+# 一定要记得修改/etc/mongodb.conf里面的bind_ip=127.0.0.1改为0.0.0.0，这样才可从外部机器登陆。
 # 用于读取MongoDB数据库里面的指定集合内容，然后加入到新的集合中去。
 from pymongo import MongoClient
 # 连接MongoDB的目标Ip地址，端口号为27017
-client = MongoClient('192.168.1.103', 27017)
+client = MongoClient('192.168.1.100', 27017)
 # 这里选择MongoDB的test的数据库
-db = client.wypredata
+db = client.test
 # 定义一个列表
 dataset = []
 # 查询col的数据并获得游标
