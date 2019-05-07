@@ -13,3 +13,6 @@ print np.mean(num1)
 print np.mean(num1, 0)
 # axis =1 ：压缩列，对各行求均值，返回 m *1 矩阵
 print np.mean(num1, 1)
+
+
+
