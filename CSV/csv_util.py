@@ -44,5 +44,13 @@ def read_csv_line_list():
         print(line.rstrip())
 
 
-read_csv_all()
+# 读取csv文件，用csv模块读取
+def read_by_csv():
+    with open('data.csv', 'r') as file_object:
+        reader = csv.reader(file_object)
+        for line in reader:
+            print(line)
+
+
+read_by_csv()
 
