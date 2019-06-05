@@ -9,9 +9,9 @@ import PIL.Image as Image
 import os
 
 IMAGES_PATH = './img/'  # 图片集地址
-IMAGES_FORMAT = ['.jpg']  # 图片格式
-IMAGE_SIZE = 1024  # 每张小图片的大小
-IMAGE_ROW = 11  # 图片间隔，也就是合并成一张图后，一共有几行
+IMAGES_FORMAT = ['.jpg', '.png']  # 图片格式
+IMAGE_SIZE = 2000  # 每张小图片的大小
+IMAGE_ROW = 12  # 图片间隔，也就是合并成一张图后，一共有几行
 IMAGE_COLUMN = 1  # 图片间隔，也就是合并成一张图后，一共有几列
 IMAGE_SAVE_PATH = './out/final.jpg'  # 图片转换后的地址
 
