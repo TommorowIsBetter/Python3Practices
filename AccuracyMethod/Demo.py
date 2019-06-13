@@ -27,6 +27,9 @@ def absolute_accuracy(list_1, list_2):
 
 
 a = [1, 2, 4, 1, 3]
-b = [1, 4, 2, 1, 3]
+b = [1, 4, 2, 8, 3]
 print(relative_accuracy(a, b))
 print(absolute_accuracy(a, b))
+c = 0.125777966
+# 显示方式：下划线 前景色：绿色 背景色：白色背景
+print("\033[1;32;41m" + str(round(c, 2)) + "\033[0m")
