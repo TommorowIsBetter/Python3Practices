@@ -38,3 +38,12 @@ js = file.read()
 dic = json.loads(js)
 print(dic)
 file.close()
+
+# 对字典进行排序
+dic = {"Alice": 79, "Wad": 35, "Een": 25}
+# 按照键的顺序来排序
+list_key = sorted(dic.items(), key=lambda item: item[0])
+print(list_key)
+# 按照值的顺序来排序
+list_value = sorted(dic.items(), key=lambda item: item[1])
+print(list_value)
