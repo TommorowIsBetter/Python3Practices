@@ -6,6 +6,7 @@
 @time:2019/5/12 15:23
 """
 import json
+from collections import Counter
 dictionary = {'color': 'green', 'points': 5}
 # 查询一个键值对
 print(dictionary['color'])
@@ -46,4 +47,11 @@ list_key = sorted(dic.items(), key=lambda item: item[0])
 print(list_key)
 # 按照值的顺序来排序
 list_value = sorted(dic.items(), key=lambda item: item[1])
-print(list_value)
+print(list_value[-1][1] - list_value[-2][1])
+
+
+# 对列表重复元素进行排序，并且获取具体的元素数量值
+list_label = [2, 2, 2, 1, 2, 3, 3]
+res = dict(Counter(list_label))
+list_value = sorted(res.items(), key=lambda item: item[1])
+print(list_value[-1][1] - list_value[-2][1])
