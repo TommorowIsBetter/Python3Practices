@@ -55,3 +55,10 @@ list_label = [2, 2, 2, 1, 2, 3, 3]
 res = dict(Counter(list_label))
 list_value = sorted(res.items(), key=lambda item: item[1])
 print(list_value[-1][1] - list_value[-2][1])
+
+
+# 利用enumerate遍历列表的时候，显示的顺序不是按照顺序打印出来
+classes = {'kind_0', 'kind_1', 'kind_2', 'kind_3'}
+for index, name in enumerate(classes):
+    print(index, name)
+
