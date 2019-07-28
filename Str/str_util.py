@@ -14,3 +14,8 @@ print(path.split("/")[-1].split(".")[0])
 str_name = "Google#Runoob#Taobao#Facebook"
 name = str_name.split("#", 2)
 print(name)
+
+
+# 判断文件是否以指定文件命名
+file_name = "hello.txt"
+print(file_name.endswith(".txt"))
