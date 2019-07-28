@@ -57,7 +57,7 @@ list_value = sorted(res.items(), key=lambda item: item[1])
 print(list_value[-1][1] - list_value[-2][1])
 
 
-# 利用enumerate遍历列表的时候，显示的顺序不是按照顺序打印出来
+# 利用enumerate遍历列表的时候，显示的顺序不是按照顺序打印出来,问题的原因是classes是集合类的原因，所以顺序无法控制。
 classes = {'kind_0', 'kind_1', 'kind_2', 'kind_3'}
 for index, name in enumerate(classes):
     print(index, name)
