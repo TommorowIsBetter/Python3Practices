@@ -1,36 +1,26 @@
-#!/usr/bin/env python
 # -*- coding: utf-8 -*-
-"""
-@author:Wang Yan
-@ide:PyCharm
-@time:2019/4/23 14:17
-"""
-
-import unittest
-
 from selenium import webdriver
-from selenium.common.exceptions import NoAlertPresentException
+from selenium.webdriver.common.by import By
+from selenium.webdriver.common.keys import Keys
+from selenium.webdriver.support.ui import Select
 from selenium.common.exceptions import NoSuchElementException
-from selenium.webdriver.common.desired_capabilities import DesiredCapabilities
+from selenium.common.exceptions import NoAlertPresentException
+import unittest, time, re
 
 
-class Logout(unittest.TestCase):
+class Classic2(unittest.TestCase):
     def setUp(self):
-        self.driver = webdriver.Remote(desired_capabilities=DesiredCapabilities.PHANTOMJS)
+        self.driver = webdriver.Firefox()
         self.driver.implicitly_wait(30)
         self.base_url = "http://192.168.1.166"
         self.verificationErrors = []
         self.accept_next_alert = True
 
-    def test_logout(self):
+    def test_classic2(self):
         driver = self.driver
-        driver.get(self.base_url + "/jenkins-2.0/login?from=%2Fjenkins-2.0%2F")
-        driver.find_element_by_id("j_username").clear()
-        driver.find_element_by_id("j_username").send_keys("admin")
-        driver.find_element_by_name("j_password").clear()
-        driver.find_element_by_name("j_password").send_keys("admin")
-        driver.find_element_by_id("yui-gen1-button").click()
-        driver.find_element_by_xpath("//div[@id='header']/div[2]/span/a[2]/b").click()
+        driver.get(self.base_url + "/BookManager/")
+        driver.find_element_by_css_selector("#example1-3 > img").click()
+        driver.find_element_by_id("imgbox-img-5").click()
 
     def is_element_present(self, how, what):
         try:
@@ -65,4 +55,3 @@ class Logout(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
-
