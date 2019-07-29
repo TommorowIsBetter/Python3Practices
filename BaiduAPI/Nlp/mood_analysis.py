@@ -33,14 +33,14 @@ def mood_analysis():
     情感分析
     """
     d = json.dumps({
-        "text": "垃圾，老是送人头"
+        "text": "菜鸡，别在送人头了！"
     })
     # noinspection PyBroadException
     try:
         print("start ...")
         r = requests.post(
             'https://aip.baidubce.com/rpc/2.0/nlp/v1/emotion?'
-            'access_token=24.928697782b851bc9c51f64a0b8d8c781.2592000.1560255936.282335-16232249', data=d)
+            'access_token=24.201ee75150221061594597cf25a3cec0.2592000.1566980927.282335-16240166', data=d)
         res = json.loads(r.text)
         print(res['items'][0]['replies'][0])
         print("end ...")
@@ -48,5 +48,6 @@ def mood_analysis():
         pass
 
 
-# 进行情感值分析
-mood_analysis()
+if __name__ == '__main__':
+    # 对话情绪识别
+    mood_analysis()
