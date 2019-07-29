@@ -9,7 +9,6 @@
 import urllib.request
 import requests
 import json
-import io
 
 
 def get_access_token():
