@@ -8,8 +8,8 @@
 import csv
 
 
-# 写入数据到csv文件中
-def save_csv():
+# 写入列表数据到csv文件中
+def save_list_csv():
     data = [['name', 'age'],
             ['Bob', 14],
             ['Tom', 23],
@@ -18,6 +18,18 @@ def save_csv():
         writer = csv.writer(f)
         for row in data:
             writer.writerow(row)
+
+# 写入字典数据到csv文件中
+def save_dic_csv():
+    listStu = []
+    data1 = {'name': 'WangYan', 'age': 18, 'Region': 'SuQian'}
+    data2 = {'name': 'LeiLei', 'age': 19, 'Region': 'NanJing'}
+    listStu.append(data1)
+    listStu.append(data2)
+    with open('data.csv', 'w', newline='') as f:
+        writer = csv.writer(f)
+        for row in listStu:
+            writer.writerow(row.values())
 
 
 # 一次性读取整个csv文件
@@ -52,5 +64,5 @@ def read_by_csv():
             print(line)
 
 
-read_by_csv()
+save_dic_csv()
 
