@@ -1,5 +1,5 @@
 import cv2
-
+import numpy as np
 img = cv2.imread('c.png')
 gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
 ret, thresh = cv2.threshold(gray, 127, 255, 0)
@@ -15,7 +15,6 @@ for i in range(len(contours)):
 lines_list = new_list.copy()
 del del_index[:]
 del new_list[:]
-print(lines_list)
 for i, count in zip(lines_list, range(len(lines_list))):
     if cv2.contourArea(i) < 200 or cv2.contourArea(i) > 20000:
         del_index.append(count)
@@ -23,6 +22,11 @@ for i in range(len(lines_list)):
     if i not in del_index:
         new_list.append(lines_list[i])
 lines_list = new_list
+print(lines_list)
+for i, count in zip(lines_list, range(len(lines_list))):
+    print(i[0][0][0])
+    cropped = img[i[0][0][1]:i[2][0][1], i[0][0][0]:i[2][0][0]]
+    cv2.imwrite(str(count) + ".png", cropped)
 img = cv2.drawContours(img, lines_list, -1, (0, 255, 0), 2)
 cv2.imshow("contours", img)
 cv2.waitKey()
