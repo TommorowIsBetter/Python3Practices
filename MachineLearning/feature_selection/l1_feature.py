@@ -3,17 +3,15 @@
 """
 @author:Wang Yan
 @ide:PyCharm
-@time:2019/12/9 13:40
+@time:2019/12/10 12:52
 """
-from sklearn.ensemble import ExtraTreesClassifier
+from sklearn.svm import LinearSVC
 from sklearn.datasets import load_iris
 from sklearn.feature_selection import SelectFromModel
 iris = load_iris()
 X, y = iris.data, iris.target
-print(X)
-clf = ExtraTreesClassifier()
-clf = clf.fit(X, y)
-print(clf.feature_importances_)
-model = SelectFromModel(clf, prefit=True)
+print(X.shape)
+lsvc = LinearSVC(C=0.01, penalty="l1", dual=False).fit(X, y)
+model = SelectFromModel(lsvc, prefit=True)
 X_new = model.transform(X)
-print(X_new)
+print(X_new.shape)
