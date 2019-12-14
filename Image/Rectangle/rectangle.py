@@ -78,7 +78,9 @@ def rectangle_and_get_information(json_file_, picture_file_):
         nodes = content['nodes']
         for node in nodes:
             if 0 < node['inScreenBounds']['bottom'] < 1184 and 0 < node['inScreenBounds']['top'] < 1184 and \
-                    0 < node['inScreenBounds']['left'] < 720 and 0 < node['inScreenBounds']['right'] < 720:
+                    0 < node['inScreenBounds']['left'] < 720 and 0 < node['inScreenBounds']['right'] < 720 and \
+                    node['inScreenBounds']['top'] < node['inScreenBounds']['bottom'] and node['inScreenBounds']['left']\
+                    < node['inScreenBounds']['right']:
                 #  这个主要用于在原图中显示已经被选中的矩形框
                 #  (left, top),(right,bottom) 按照这个顺序，具体的数值通过在json文件里面进行获取
                 draw_0 = cv2.rectangle(image, (node['inScreenBounds']['left'], node['inScreenBounds']['top']),
@@ -87,6 +89,12 @@ def rectangle_and_get_information(json_file_, picture_file_):
                 # 对选中的局部图片进行分析 [top:bottom, left:right]按照这个顺序进行放置
                 region = image[node['inScreenBounds']['top']:node['inScreenBounds']['bottom'],
                                node['inScreenBounds']['left']:node['inScreenBounds']['right']]
+                print(node['inScreenBounds']['top'])
+                print(node['inScreenBounds']['bottom'])
+                print(node['inScreenBounds']['left'])
+                print(node['inScreenBounds']['right'])
+                print('--------------')
+                cv2.imshow("a", region)
                 h_s_v = cv2.cvtColor(region, cv2.COLOR_BGR2HSV)
                 h, s, v = cv2.split(h_s_v)
                 # 1.获取色调值
@@ -111,6 +119,6 @@ def rectangle_and_get_information(json_file_, picture_file_):
     cv2.destroyWindow("draw_0")
 
 if __name__ == '__main__':
-    json_file = 'F:\\CommonFiles\\PyCharmProject\\Python3Practices\\Image\Rectangle\\20191213171916715.json'
-    picture_file = 'F:\\CommonFiles\\PyCharmProject\\Python3Practices\\Image\Rectangle\\20191213171916715.png'
+    json_file = '20191202200057_20191202200055700_8.json'
+    picture_file = '20191202200057_20191202200055700.png'
     rectangle_and_get_information(json_file, picture_file)
