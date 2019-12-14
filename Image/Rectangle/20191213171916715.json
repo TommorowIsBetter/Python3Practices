@@ -1,0 +1,3206 @@
+{
+  "event": {
+    "availMem": 632,
+    "eventTime": 20191213171917282,
+    "eventType": "TYPE_WINDOW_CONTENT_CHANGED",
+    "isChecked": false,
+    "isFullScreen": false,
+    "isPassword": false,
+    "isScrollable": true,
+    "screenHeight": 1184,
+    "screenWidth": 720,
+    "source": {
+      "className": "android.webkit.WebView",
+      "descriptionText": "亚马逊中国 z.cn, 一站放心购全球",
+      "inParentBounds": {
+        "bottom": 3536,
+        "left": 0,
+        "right": 360,
+        "top": 0
+      },
+      "inScreenBounds": {
+        "bottom": 1086,
+        "left": 0,
+        "right": 720,
+        "top": 145
+      },
+      "isCheckable": false,
+      "isChecked": false,
+      "isClickable": false,
+      "isEditable": false,
+      "isEnabled": true,
+      "isFocusable": true,
+      "isFocused": true,
+      "isLongClickable": false,
+      "isPassword": false,
+      "isScrollable": true,
+      "maxTextLength": -1,
+      "packageName": "cn.amazon.mShop.android",
+      "text": ""
+    },
+    "totalMem": 1953
+  },
+  "nodes": [
+    {
+      "className": "android.widget.ImageView",
+      "descriptionText": "首页",
+      "inParentBounds": {
+        "bottom": 52,
+        "left": 0,
+        "right": 120,
+        "top": 0
+      },
+      "inScreenBounds": {
+        "bottom": 122,
+        "left": 14,
+        "right": 134,
+        "top": 70
+      },
+      "isCheckable": false,
+      "isChecked": false,
+      "isClickable": false,
+      "isEditable": false,
+      "isEnabled": true,
+      "isFocusable": false,
+      "isFocused": false,
+      "isLongClickable": false,
+      "isPassword": false,
+      "isScrollable": false,
+      "maxTextLength": -1,
+      "packageName": "cn.amazon.mShop.android",
+      "text": ""
+    },
+    {
+      "className": "android.widget.EditText",
+      "descriptionText": "",
+      "inParentBounds": {
+        "bottom": 68,
+        "left": 0,
+        "right": 476,
+        "top": 0
+      },
+      "inScreenBounds": {
+        "bottom": 130,
+        "left": 148,
+        "right": 624,
+        "top": 62
+      },
+      "isCheckable": false,
+      "isChecked": false,
+      "isClickable": true,
+      "isEditable": true,
+      "isEnabled": true,
+      "isFocusable": true,
+      "isFocused": false,
+      "isLongClickable": true,
+      "isPassword": false,
+      "isScrollable": false,
+      "maxTextLength": -1,
+      "packageName": "cn.amazon.mShop.android",
+      "text": "搜索商品"
+    },
+    {
+      "className": "android.widget.ImageView",
+      "descriptionText": "扫描",
+      "inParentBounds": {
+        "bottom": 70,
+        "left": 0,
+        "right": 82,
+        "top": 0
+      },
+      "inScreenBounds": {
+        "bottom": 132,
+        "left": 542,
+        "right": 624,
+        "top": 62
+      },
+      "isCheckable": false,
+      "isChecked": false,
+      "isClickable": true,
+      "isEditable": false,
+      "isEnabled": true,
+      "isFocusable": false,
+      "isFocused": false,
+      "isLongClickable": false,
+      "isPassword": false,
+      "isScrollable": false,
+      "maxTextLength": -1,
+      "packageName": "cn.amazon.mShop.android",
+      "text": ""
+    },
+    {
+      "className": "android.widget.ImageView",
+      "descriptionText": "购物车",
+      "inParentBounds": {
+        "bottom": 92,
+        "left": 0,
+        "right": 92,
+        "top": 0
+      },
+      "inScreenBounds": {
+        "bottom": 142,
+        "left": 624,
+        "right": 716,
+        "top": 50
+      },
+      "isCheckable": false,
+      "isChecked": false,
+      "isClickable": false,
+      "isEditable": false,
+      "isEnabled": true,
+      "isFocusable": false,
+      "isFocused": false,
+      "isLongClickable": false,
+      "isPassword": false,
+      "isScrollable": false,
+      "maxTextLength": -1,
+      "packageName": "cn.amazon.mShop.android",
+      "text": ""
+    },
+    {
+      "className": "android.widget.TextView",
+      "descriptionText": "",
+      "inParentBounds": {
+        "bottom": 78,
+        "left": 0,
+        "right": 28,
+        "top": 0
+      },
+      "inScreenBounds": {
+        "bottom": 142,
+        "left": 656,
+        "right": 684,
+        "top": 64
+      },
+      "isCheckable": false,
+      "isChecked": false,
+      "isClickable": false,
+      "isEditable": false,
+      "isEnabled": true,
+      "isFocusable": false,
+      "isFocused": false,
+      "isLongClickable": false,
+      "isPassword": false,
+      "isScrollable": false,
+      "maxTextLength": -1,
+      "packageName": "cn.amazon.mShop.android",
+      "text": "0"
+    },
+    {
+      "className": "android.widget.Image",
+      "descriptionText": "广告",
+      "inParentBounds": {
+        "bottom": 13,
+        "left": 2,
+        "right": 28,
+        "top": 0
+      },
+      "inScreenBounds": {
+        "bottom": -1721,
+        "left": 612,
+        "right": 664,
+        "top": 145
+      },
+      "isCheckable": false,
+      "isChecked": false,
+      "isClickable": true,
+      "isEditable": false,
+      "isEnabled": true,
+      "isFocusable": false,
+      "isFocused": false,
+      "isLongClickable": false,
+      "isPassword": false,
+      "isScrollable": false,
+      "maxTextLength": -1,
+      "packageName": "cn.amazon.mShop.android",
+      "text": ""
+    },
+    {
+      "className": "android.view.View",
+      "descriptionText": "年终爆款开仓 69元起",
+      "inParentBounds": {
+        "bottom": 150,
+        "left": 1800,
+        "right": 2214,
+        "top": 0
+      },
+      "inScreenBounds": {
+        "bottom": -1701,
+        "left": -774,
+        "right": 54,
+        "top": 145
+      },
+      "isCheckable": false,
+      "isChecked": false,
+      "isClickable": true,
+      "isEditable": false,
+      "isEnabled": true,
+      "isFocusable": true,
+      "isFocused": false,
+      "isLongClickable": false,
+      "isPassword": false,
+      "isScrollable": false,
+      "maxTextLength": -1,
+      "packageName": "cn.amazon.mShop.android",
+      "text": ""
+    },
+    {
+      "className": "android.view.View",
+      "descriptionText": "Kindle电子书阅读器",
+      "inParentBounds": {
+        "bottom": 150,
+        "left": 1800,
+        "right": 2214,
+        "top": 0
+      },
+      "inScreenBounds": {
+        "bottom": -1701,
+        "left": -54,
+        "right": 774,
+        "top": 145
+      },
+      "isCheckable": false,
+      "isChecked": false,
+      "isClickable": true,
+      "isEditable": false,
+      "isEnabled": true,
+      "isFocusable": true,
+      "isFocused": false,
+      "isLongClickable": false,
+      "isPassword": false,
+      "isScrollable": false,
+      "maxTextLength": -1,
+      "packageName": "cn.amazon.mShop.android",
+      "text": ""
+    },
+    {
+      "className": "android.view.View",
+      "descriptionText": "Citizen 459元起",
+      "inParentBounds": {
+        "bottom": 150,
+        "left": 1800,
+        "right": 2214,
+        "top": 0
+      },
+      "inScreenBounds": {
+        "bottom": -1701,
+        "left": 666,
+        "right": 1494,
+        "top": 145
+      },
+      "isCheckable": false,
+      "isChecked": false,
+      "isClickable": true,
+      "isEditable": false,
+      "isEnabled": true,
+      "isFocusable": true,
+      "isFocused": false,
+      "isLongClickable": false,
+      "isPassword": false,
+      "isScrollable": false,
+      "maxTextLength": -1,
+      "packageName": "cn.amazon.mShop.android",
+      "text": ""
+    },
+    {
+      "className": "android.view.View",
+      "descriptionText": "亚马逊海外购-game",
+      "inParentBounds": {
+        "bottom": 150,
+        "left": 1800,
+        "right": 2214,
+        "top": 0
+      },
+      "inScreenBounds": {
+        "bottom": -1701,
+        "left": 1386,
+        "right": 2214,
+        "top": 145
+      },
+      "isCheckable": false,
+      "isChecked": false,
+      "isClickable": true,
+      "isEditable": false,
+      "isEnabled": true,
+      "isFocusable": true,
+      "isFocused": false,
+      "isLongClickable": false,
+      "isPassword": false,
+      "isScrollable": false,
+      "maxTextLength": -1,
+      "packageName": "cn.amazon.mShop.android",
+      "text": ""
+    },
+    {
+      "className": "android.view.View",
+      "descriptionText": "亚马逊海外购美妆",
+      "inParentBounds": {
+        "bottom": 150,
+        "left": 1800,
+        "right": 2214,
+        "top": 0
+      },
+      "inScreenBounds": {
+        "bottom": -1701,
+        "left": 2106,
+        "right": 2934,
+        "top": 145
+      },
+      "isCheckable": false,
+      "isChecked": false,
+      "isClickable": true,
+      "isEditable": false,
+      "isEnabled": true,
+      "isFocusable": true,
+      "isFocused": false,
+      "isLongClickable": false,
+      "isPassword": false,
+      "isScrollable": false,
+      "maxTextLength": -1,
+      "packageName": "cn.amazon.mShop.android",
+      "text": ""
+    },
+    {
+      "className": "android.view.View",
+      "descriptionText": "气质外套甄选 - 亚马逊海外购",
+      "inParentBounds": {
+        "bottom": 150,
+        "left": 1800,
+        "right": 2214,
+        "top": 0
+      },
+      "inScreenBounds": {
+        "bottom": -1701,
+        "left": 2826,
+        "right": 3654,
+        "top": 145
+      },
+      "isCheckable": false,
+      "isChecked": false,
+      "isClickable": true,
+      "isEditable": false,
+      "isEnabled": true,
+      "isFocusable": true,
+      "isFocused": false,
+      "isLongClickable": false,
+      "isPassword": false,
+      "isScrollable": false,
+      "maxTextLength": -1,
+      "packageName": "cn.amazon.mShop.android",
+      "text": ""
+    },
+    {
+      "className": "android.view.View",
+      "descriptionText": "亚马逊海外购 家居生活 2",
+      "inParentBounds": {
+        "bottom": 150,
+        "left": 1800,
+        "right": 2214,
+        "top": 0
+      },
+      "inScreenBounds": {
+        "bottom": -1701,
+        "left": 3546,
+        "right": 4374,
+        "top": 145
+      },
+      "isCheckable": false,
+      "isChecked": false,
+      "isClickable": true,
+      "isEditable": false,
+      "isEnabled": true,
+      "isFocusable": true,
+      "isFocused": false,
+      "isLongClickable": false,
+      "isPassword": false,
+      "isScrollable": false,
+      "maxTextLength": -1,
+      "packageName": "cn.amazon.mShop.android",
+      "text": ""
+    },
+    {
+      "className": "android.view.View",
+      "descriptionText": "360°的健康呵护",
+      "inParentBounds": {
+        "bottom": 150,
+        "left": 1800,
+        "right": 2214,
+        "top": 0
+      },
+      "inScreenBounds": {
+        "bottom": -1701,
+        "left": 4266,
+        "right": 5094,
+        "top": 145
+      },
+      "isCheckable": false,
+      "isChecked": false,
+      "isClickable": true,
+      "isEditable": false,
+      "isEnabled": true,
+      "isFocusable": true,
+      "isFocused": false,
+      "isLongClickable": false,
+      "isPassword": false,
+      "isScrollable": false,
+      "maxTextLength": -1,
+      "packageName": "cn.amazon.mShop.android",
+      "text": ""
+    },
+    {
+      "className": "android.view.View",
+      "descriptionText": "",
+      "inParentBounds": {
+        "bottom": 14,
+        "left": 125,
+        "right": 133,
+        "top": 7
+      },
+      "inScreenBounds": {
+        "bottom": -1717,
+        "left": 250,
+        "right": 266,
+        "top": 145
+      },
+      "isCheckable": false,
+      "isChecked": false,
+      "isClickable": false,
+      "isEditable": false,
+      "isEnabled": true,
+      "isFocusable": false,
+      "isFocused": false,
+      "isLongClickable": false,
+      "isPassword": false,
+      "isScrollable": false,
+      "maxTextLength": -1,
+      "packageName": "cn.amazon.mShop.android",
+      "text": ""
+    },
+    {
+      "className": "android.view.View",
+      "descriptionText": "",
+      "inParentBounds": {
+        "bottom": 14,
+        "left": 139,
+        "right": 147,
+        "top": 7
+      },
+      "inScreenBounds": {
+        "bottom": -1717,
+        "left": 278,
+        "right": 294,
+        "top": 145
+      },
+      "isCheckable": false,
+      "isChecked": false,
+      "isClickable": false,
+      "isEditable": false,
+      "isEnabled": true,
+      "isFocusable": false,
+      "isFocused": false,
+      "isLongClickable": false,
+      "isPassword": false,
+      "isScrollable": false,
+      "maxTextLength": -1,
+      "packageName": "cn.amazon.mShop.android",
+      "text": ""
+    },
+    {
+      "className": "android.view.View",
+      "descriptionText": "",
+      "inParentBounds": {
+        "bottom": 14,
+        "left": 154,
+        "right": 162,
+        "top": 7
+      },
+      "inScreenBounds": {
+        "bottom": -1717,
+        "left": 308,
+        "right": 324,
+        "top": 145
+      },
+      "isCheckable": false,
+      "isChecked": false,
+      "isClickable": false,
+      "isEditable": false,
+      "isEnabled": true,
+      "isFocusable": false,
+      "isFocused": false,
+      "isLongClickable": false,
+      "isPassword": false,
+      "isScrollable": false,
+      "maxTextLength": -1,
+      "packageName": "cn.amazon.mShop.android",
+      "text": ""
+    },
+    {
+      "className": "android.view.View",
+      "descriptionText": "",
+      "inParentBounds": {
+        "bottom": 14,
+        "left": 169,
+        "right": 177,
+        "top": 7
+      },
+      "inScreenBounds": {
+        "bottom": -1717,
+        "left": 338,
+        "right": 354,
+        "top": 145
+      },
+      "isCheckable": false,
+      "isChecked": false,
+      "isClickable": false,
+      "isEditable": false,
+      "isEnabled": true,
+      "isFocusable": false,
+      "isFocused": false,
+      "isLongClickable": false,
+      "isPassword": false,
+      "isScrollable": false,
+      "maxTextLength": -1,
+      "packageName": "cn.amazon.mShop.android",
+      "text": ""
+    },
+    {
+      "className": "android.view.View",
+      "descriptionText": "",
+      "inParentBounds": {
+        "bottom": 14,
+        "left": 183,
+        "right": 191,
+        "top": 7
+      },
+      "inScreenBounds": {
+        "bottom": -1717,
+        "left": 366,
+        "right": 382,
+        "top": 145
+      },
+      "isCheckable": false,
+      "isChecked": false,
+      "isClickable": false,
+      "isEditable": false,
+      "isEnabled": true,
+      "isFocusable": false,
+      "isFocused": false,
+      "isLongClickable": false,
+      "isPassword": false,
+      "isScrollable": false,
+      "maxTextLength": -1,
+      "packageName": "cn.amazon.mShop.android",
+      "text": ""
+    },
+    {
+      "className": "android.view.View",
+      "descriptionText": "",
+      "inParentBounds": {
+        "bottom": 14,
+        "left": 198,
+        "right": 206,
+        "top": 7
+      },
+      "inScreenBounds": {
+        "bottom": -1717,
+        "left": 396,
+        "right": 412,
+        "top": 145
+      },
+      "isCheckable": false,
+      "isChecked": false,
+      "isClickable": false,
+      "isEditable": false,
+      "isEnabled": true,
+      "isFocusable": false,
+      "isFocused": false,
+      "isLongClickable": false,
+      "isPassword": false,
+      "isScrollable": false,
+      "maxTextLength": -1,
+      "packageName": "cn.amazon.mShop.android",
+      "text": ""
+    },
+    {
+      "className": "android.view.View",
+      "descriptionText": "",
+      "inParentBounds": {
+        "bottom": 14,
+        "left": 213,
+        "right": 221,
+        "top": 7
+      },
+      "inScreenBounds": {
+        "bottom": -1717,
+        "left": 426,
+        "right": 442,
+        "top": 145
+      },
+      "isCheckable": false,
+      "isChecked": false,
+      "isClickable": false,
+      "isEditable": false,
+      "isEnabled": true,
+      "isFocusable": false,
+      "isFocused": false,
+      "isLongClickable": false,
+      "isPassword": false,
+      "isScrollable": false,
+      "maxTextLength": -1,
+      "packageName": "cn.amazon.mShop.android",
+      "text": ""
+    },
+    {
+      "className": "android.view.View",
+      "descriptionText": "",
+      "inParentBounds": {
+        "bottom": 14,
+        "left": 227,
+        "right": 235,
+        "top": 7
+      },
+      "inScreenBounds": {
+        "bottom": -1717,
+        "left": 454,
+        "right": 470,
+        "top": 145
+      },
+      "isCheckable": false,
+      "isChecked": false,
+      "isClickable": false,
+      "isEditable": false,
+      "isEnabled": true,
+      "isFocusable": false,
+      "isFocused": false,
+      "isLongClickable": false,
+      "isPassword": false,
+      "isScrollable": false,
+      "maxTextLength": -1,
+      "packageName": "cn.amazon.mShop.android",
+      "text": ""
+    },
+    {
+      "className": "android.view.View",
+      "descriptionText": "ref\u003dmh_cnm_nav_c_1?_encoding\u003dUTF8\u0026node\u003d116087071\u0026pf_rd_s\u003dgrid-top-2\u0026pf_rd_t\u003dGateway\u0026pf_rd_i\u003dmobile\u0026pf_rd_m\u003dA1AJ19PSB66TGU\u0026pf_rd_r\u003dVWK3J1E862R1HHQMRT24\u0026pf_rd_p\u003d2e2ac1a6-5144-42db-837c-63aa7484ffef",
+      "inParentBounds": {
+        "bottom": 269,
+        "left": 0,
+        "right": 72,
+        "top": 183
+      },
+      "inScreenBounds": {
+        "bottom": -1463,
+        "left": 0,
+        "right": 144,
+        "top": 145
+      },
+      "isCheckable": false,
+      "isChecked": false,
+      "isClickable": true,
+      "isEditable": false,
+      "isEnabled": true,
+      "isFocusable": true,
+      "isFocused": false,
+      "isLongClickable": false,
+      "isPassword": false,
+      "isScrollable": false,
+      "maxTextLength": -1,
+      "packageName": "cn.amazon.mShop.android",
+      "text": ""
+    },
+    {
+      "className": "android.view.View",
+      "descriptionText": "ref\u003dmh_cnm_nav_c_2?_encoding\u003dUTF8\u0026node\u003d1403206071\u0026pf_rd_s\u003dgrid-top-2\u0026pf_rd_t\u003dGateway\u0026pf_rd_i\u003dmobile\u0026pf_rd_m\u003dA1AJ19PSB66TGU\u0026pf_rd_r\u003dVWK3J1E862R1HHQMRT24\u0026pf_rd_p\u003d2e2ac1a6-5144-42db-837c-63aa7484ffef",
+      "inParentBounds": {
+        "bottom": 269,
+        "left": 72,
+        "right": 144,
+        "top": 183
+      },
+      "inScreenBounds": {
+        "bottom": -1463,
+        "left": 144,
+        "right": 288,
+        "top": 145
+      },
+      "isCheckable": false,
+      "isChecked": false,
+      "isClickable": true,
+      "isEditable": false,
+      "isEnabled": true,
+      "isFocusable": true,
+      "isFocused": false,
+      "isLongClickable": false,
+      "isPassword": false,
+      "isScrollable": false,
+      "maxTextLength": -1,
+      "packageName": "cn.amazon.mShop.android",
+      "text": ""
+    },
+    {
+      "className": "android.view.View",
+      "descriptionText": "ref\u003dmh_cnm_nav_c_3?pf_rd_s\u003dgrid-top-2\u0026pf_rd_t\u003dGateway\u0026pf_rd_i\u003dmobile\u0026pf_rd_m\u003dA1AJ19PSB66TGU\u0026pf_rd_r\u003dVWK3J1E862R1HHQMRT24\u0026pf_rd_p\u003d2e2ac1a6-5144-42db-837c-63aa7484ffef",
+      "inParentBounds": {
+        "bottom": 269,
+        "left": 144,
+        "right": 216,
+        "top": 183
+      },
+      "inScreenBounds": {
+        "bottom": -1463,
+        "left": 288,
+        "right": 432,
+        "top": 145
+      },
+      "isCheckable": false,
+      "isChecked": false,
+      "isClickable": true,
+      "isEditable": false,
+      "isEnabled": true,
+      "isFocusable": true,
+      "isFocused": false,
+      "isLongClickable": false,
+      "isPassword": false,
+      "isScrollable": false,
+      "maxTextLength": -1,
+      "packageName": "cn.amazon.mShop.android",
+      "text": ""
+    },
+    {
+      "className": "android.view.View",
+      "descriptionText": "ref\u003dmh_cnm_nav_c_4?_encoding\u003dUTF8\u0026node\u003d1756067071\u0026pf_rd_s\u003dgrid-top-2\u0026pf_rd_t\u003dGateway\u0026pf_rd_i\u003dmobile\u0026pf_rd_m\u003dA1AJ19PSB66TGU\u0026pf_rd_r\u003dVWK3J1E862R1HHQMRT24\u0026pf_rd_p\u003d2e2ac1a6-5144-42db-837c-63aa7484ffef",
+      "inParentBounds": {
+        "bottom": 269,
+        "left": 216,
+        "right": 288,
+        "top": 183
+      },
+      "inScreenBounds": {
+        "bottom": -1463,
+        "left": 432,
+        "right": 576,
+        "top": 145
+      },
+      "isCheckable": false,
+      "isChecked": false,
+      "isClickable": true,
+      "isEditable": false,
+      "isEnabled": true,
+      "isFocusable": true,
+      "isFocused": false,
+      "isLongClickable": false,
+      "isPassword": false,
+      "isScrollable": false,
+      "maxTextLength": -1,
+      "packageName": "cn.amazon.mShop.android",
+      "text": ""
+    },
+    {
+      "className": "android.view.View",
+      "descriptionText": "ref\u003dmh_cnm_nav_c_5?_encoding\u003dUTF8\u0026node\u003d2031274071\u0026pf_rd_s\u003dgrid-top-2\u0026pf_rd_t\u003dGateway\u0026pf_rd_i\u003dmobile\u0026pf_rd_m\u003dA1AJ19PSB66TGU\u0026pf_rd_r\u003dVWK3J1E862R1HHQMRT24\u0026pf_rd_p\u003d2e2ac1a6-5144-42db-837c-63aa7484ffef",
+      "inParentBounds": {
+        "bottom": 269,
+        "left": 288,
+        "right": 360,
+        "top": 183
+      },
+      "inScreenBounds": {
+        "bottom": -1463,
+        "left": 576,
+        "right": 720,
+        "top": 145
+      },
+      "isCheckable": false,
+      "isChecked": false,
+      "isClickable": true,
+      "isEditable": false,
+      "isEnabled": true,
+      "isFocusable": true,
+      "isFocused": false,
+      "isLongClickable": false,
+      "isPassword": false,
+      "isScrollable": false,
+      "maxTextLength": -1,
+      "packageName": "cn.amazon.mShop.android",
+      "text": ""
+    },
+    {
+      "className": "android.view.View",
+      "descriptionText": "ref\u003dmh_cnm_nav_c_6?_encoding\u003dUTF8\u0026node\u003d2018938071\u0026pf_rd_s\u003dgrid-top-2\u0026pf_rd_t\u003dGateway\u0026pf_rd_i\u003dmobile\u0026pf_rd_m\u003dA1AJ19PSB66TGU\u0026pf_rd_r\u003dVWK3J1E862R1HHQMRT24\u0026pf_rd_p\u003d2e2ac1a6-5144-42db-837c-63aa7484ffef",
+      "inParentBounds": {
+        "bottom": 356,
+        "left": 0,
+        "right": 72,
+        "top": 267
+      },
+      "inScreenBounds": {
+        "bottom": -1289,
+        "left": 0,
+        "right": 144,
+        "top": 145
+      },
+      "isCheckable": false,
+      "isChecked": false,
+      "isClickable": true,
+      "isEditable": false,
+      "isEnabled": true,
+      "isFocusable": true,
+      "isFocused": false,
+      "isLongClickable": false,
+      "isPassword": false,
+      "isScrollable": false,
+      "maxTextLength": -1,
+      "packageName": "cn.amazon.mShop.android",
+      "text": ""
+    },
+    {
+      "className": "android.view.View",
+      "descriptionText": "ref\u003dmh_cnm_nav_c_7?_encoding\u003dUTF8\u0026node\u003d1494169071\u0026pf_rd_s\u003dgrid-top-2\u0026pf_rd_t\u003dGateway\u0026pf_rd_i\u003dmobile\u0026pf_rd_m\u003dA1AJ19PSB66TGU\u0026pf_rd_r\u003dVWK3J1E862R1HHQMRT24\u0026pf_rd_p\u003d2e2ac1a6-5144-42db-837c-63aa7484ffef",
+      "inParentBounds": {
+        "bottom": 356,
+        "left": 72,
+        "right": 144,
+        "top": 267
+      },
+      "inScreenBounds": {
+        "bottom": -1289,
+        "left": 144,
+        "right": 288,
+        "top": 145
+      },
+      "isCheckable": false,
+      "isChecked": false,
+      "isClickable": true,
+      "isEditable": false,
+      "isEnabled": true,
+      "isFocusable": true,
+      "isFocused": false,
+      "isLongClickable": false,
+      "isPassword": false,
+      "isScrollable": false,
+      "maxTextLength": -1,
+      "packageName": "cn.amazon.mShop.android",
+      "text": ""
+    },
+    {
+      "className": "android.view.View",
+      "descriptionText": "ref\u003dmh_cnm_nav_c_8?_encoding\u003dUTF8\u0026node\u003d1546136071\u0026pf_rd_s\u003dgrid-top-2\u0026pf_rd_t\u003dGateway\u0026pf_rd_i\u003dmobile\u0026pf_rd_m\u003dA1AJ19PSB66TGU\u0026pf_rd_r\u003dVWK3J1E862R1HHQMRT24\u0026pf_rd_p\u003d2e2ac1a6-5144-42db-837c-63aa7484ffef",
+      "inParentBounds": {
+        "bottom": 356,
+        "left": 144,
+        "right": 216,
+        "top": 267
+      },
+      "inScreenBounds": {
+        "bottom": -1289,
+        "left": 288,
+        "right": 432,
+        "top": 145
+      },
+      "isCheckable": false,
+      "isChecked": false,
+      "isClickable": true,
+      "isEditable": false,
+      "isEnabled": true,
+      "isFocusable": true,
+      "isFocused": false,
+      "isLongClickable": false,
+      "isPassword": false,
+      "isScrollable": false,
+      "maxTextLength": -1,
+      "packageName": "cn.amazon.mShop.android",
+      "text": ""
+    },
+    {
+      "className": "android.view.View",
+      "descriptionText": "ref\u003dmh_cnm_nav_c_9?_encoding\u003dUTF8\u0026node\u003d1488289071\u0026pf_rd_s\u003dgrid-top-2\u0026pf_rd_t\u003dGateway\u0026pf_rd_i\u003dmobile\u0026pf_rd_m\u003dA1AJ19PSB66TGU\u0026pf_rd_r\u003dVWK3J1E862R1HHQMRT24\u0026pf_rd_p\u003d2e2ac1a6-5144-42db-837c-63aa7484ffef",
+      "inParentBounds": {
+        "bottom": 356,
+        "left": 216,
+        "right": 288,
+        "top": 267
+      },
+      "inScreenBounds": {
+        "bottom": -1289,
+        "left": 432,
+        "right": 576,
+        "top": 145
+      },
+      "isCheckable": false,
+      "isChecked": false,
+      "isClickable": true,
+      "isEditable": false,
+      "isEnabled": true,
+      "isFocusable": true,
+      "isFocused": false,
+      "isLongClickable": false,
+      "isPassword": false,
+      "isScrollable": false,
+      "maxTextLength": -1,
+      "packageName": "cn.amazon.mShop.android",
+      "text": ""
+    },
+    {
+      "className": "android.view.View",
+      "descriptionText": "ref\u003dmh_cnm_nav_c_10?_encoding\u003dUTF8\u0026node\u003d1519395071\u0026pf_rd_s\u003dgrid-top-2\u0026pf_rd_t\u003dGateway\u0026pf_rd_i\u003dmobile\u0026pf_rd_m\u003dA1AJ19PSB66TGU\u0026pf_rd_r\u003dVWK3J1E862R1HHQMRT24\u0026pf_rd_p\u003d2e2ac1a6-5144-42db-837c-63aa7484ffef",
+      "inParentBounds": {
+        "bottom": 356,
+        "left": 288,
+        "right": 360,
+        "top": 267
+      },
+      "inScreenBounds": {
+        "bottom": -1289,
+        "left": 576,
+        "right": 720,
+        "top": 145
+      },
+      "isCheckable": false,
+      "isChecked": false,
+      "isClickable": true,
+      "isEditable": false,
+      "isEnabled": true,
+      "isFocusable": true,
+      "isFocused": false,
+      "isLongClickable": false,
+      "isPassword": false,
+      "isScrollable": false,
+      "maxTextLength": -1,
+      "packageName": "cn.amazon.mShop.android",
+      "text": ""
+    },
+    {
+      "className": "android.view.View",
+      "descriptionText": "广告",
+      "inParentBounds": {
+        "bottom": 421,
+        "left": 0,
+        "right": 360,
+        "top": 360
+      },
+      "inScreenBounds": {
+        "bottom": -1159,
+        "left": 0,
+        "right": 720,
+        "top": 145
+      },
+      "isCheckable": false,
+      "isChecked": false,
+      "isClickable": true,
+      "isEditable": false,
+      "isEnabled": true,
+      "isFocusable": false,
+      "isFocused": false,
+      "isLongClickable": false,
+      "isPassword": false,
+      "isScrollable": false,
+      "maxTextLength": -1,
+      "packageName": "cn.amazon.mShop.android",
+      "text": ""
+    },
+    {
+      "className": "android.view.View",
+      "descriptionText": "ref\u003dref\u003dmh_cnm_GSNC2P1?_encoding\u003dUTF8\u0026node\u003d2258720071\u0026pf_rd_s\u003dgrid-top-3\u0026pf_rd_t\u003dGateway\u0026pf_rd_i\u003dmobile\u0026pf_rd_m\u003dA1AJ19PSB66TGU\u0026pf_rd_r\u003dVWK3J1E862R1HHQMRT24\u0026pf_rd_p\u003de97c68bb-9c6c-400d-ad76-98877bab1bb3",
+      "inParentBounds": {
+        "bottom": 517,
+        "left": 0,
+        "right": 360,
+        "top": 420
+      },
+      "inScreenBounds": {
+        "bottom": -967,
+        "left": 0,
+        "right": 720,
+        "top": 145
+      },
+      "isCheckable": false,
+      "isChecked": false,
+      "isClickable": true,
+      "isEditable": false,
+      "isEnabled": true,
+      "isFocusable": true,
+      "isFocused": false,
+      "isLongClickable": false,
+      "isPassword": false,
+      "isScrollable": false,
+      "maxTextLength": -1,
+      "packageName": "cn.amazon.mShop.android",
+      "text": ""
+    },
+    {
+      "className": "android.view.View",
+      "descriptionText": "ref\u003dmh_cnm_spl_1?_encoding\u003dUTF8\u0026node\u003d1992202071\u0026pf_rd_s\u003dgrid-top-4\u0026pf_rd_t\u003dGateway\u0026pf_rd_i\u003dmobile\u0026pf_rd_m\u003dA1AJ19PSB66TGU\u0026pf_rd_r\u003dVWK3J1E862R1HHQMRT24\u0026pf_rd_p\u003dfe3144df-2f48-4ab7-a4a5-a1d8540b7b85",
+      "inParentBounds": {
+        "bottom": 665,
+        "left": 0,
+        "right": 360,
+        "top": 520
+      },
+      "inScreenBounds": {
+        "bottom": -671,
+        "left": 0,
+        "right": 720,
+        "top": 145
+      },
+      "isCheckable": false,
+      "isChecked": false,
+      "isClickable": true,
+      "isEditable": false,
+      "isEnabled": true,
+      "isFocusable": true,
+      "isFocused": false,
+      "isLongClickable": false,
+      "isPassword": false,
+      "isScrollable": false,
+      "maxTextLength": -1,
+      "packageName": "cn.amazon.mShop.android",
+      "text": ""
+    },
+    {
+      "className": "android.view.View",
+      "descriptionText": "ref\u003dmh_cnm_spl_2?_encoding\u003dUTF8\u0026deals\u003d53445201\u0026handlerName\u003dOctopusDealLandingStreamV2\u0026marketplaceId\u003dAAHKV2X7AFYLW\u0026showVariations\u003dtrue\u0026pf_rd_s\u003dgrid-top-4\u0026pf_rd_t\u003dGateway\u0026pf_rd_i\u003dmobile\u0026pf_rd_m\u003dA1AJ19PSB66TGU\u0026pf_rd_r\u003dVWK3J1E862R1HHQMRT24\u0026pf_rd_p\u003dfe3144df-2f48-4ab7-a4a5-a1d8540b7b85",
+      "inParentBounds": {
+        "bottom": 754,
+        "left": 0,
+        "right": 360,
+        "top": 663
+      },
+      "inScreenBounds": {
+        "bottom": -493,
+        "left": 0,
+        "right": 720,
+        "top": 145
+      },
+      "isCheckable": false,
+      "isChecked": false,
+      "isClickable": true,
+      "isEditable": false,
+      "isEnabled": true,
+      "isFocusable": true,
+      "isFocused": false,
+      "isLongClickable": false,
+      "isPassword": false,
+      "isScrollable": false,
+      "maxTextLength": -1,
+      "packageName": "cn.amazon.mShop.android",
+      "text": ""
+    },
+    {
+      "className": "android.view.View",
+      "descriptionText": "ref\u003dmh_cnm_spl_3?_encoding\u003dUTF8\u0026node\u003d2257280071\u0026pf_rd_s\u003dgrid-top-4\u0026pf_rd_t\u003dGateway\u0026pf_rd_i\u003dmobile\u0026pf_rd_m\u003dA1AJ19PSB66TGU\u0026pf_rd_r\u003dVWK3J1E862R1HHQMRT24\u0026pf_rd_p\u003dfe3144df-2f48-4ab7-a4a5-a1d8540b7b85",
+      "inParentBounds": {
+        "bottom": 845,
+        "left": 0,
+        "right": 180,
+        "top": 752
+      },
+      "inScreenBounds": {
+        "bottom": -311,
+        "left": 0,
+        "right": 360,
+        "top": 145
+      },
+      "isCheckable": false,
+      "isChecked": false,
+      "isClickable": true,
+      "isEditable": false,
+      "isEnabled": true,
+      "isFocusable": true,
+      "isFocused": false,
+      "isLongClickable": false,
+      "isPassword": false,
+      "isScrollable": false,
+      "maxTextLength": -1,
+      "packageName": "cn.amazon.mShop.android",
+      "text": ""
+    },
+    {
+      "className": "android.view.View",
+      "descriptionText": "ref\u003dmh_cnm_spl_4?_encoding\u003dUTF8\u0026node\u003d2210063071\u0026pf_rd_s\u003dgrid-top-4\u0026pf_rd_t\u003dGateway\u0026pf_rd_i\u003dmobile\u0026pf_rd_m\u003dA1AJ19PSB66TGU\u0026pf_rd_r\u003dVWK3J1E862R1HHQMRT24\u0026pf_rd_p\u003dfe3144df-2f48-4ab7-a4a5-a1d8540b7b85",
+      "inParentBounds": {
+        "bottom": 845,
+        "left": 180,
+        "right": 360,
+        "top": 752
+      },
+      "inScreenBounds": {
+        "bottom": -311,
+        "left": 360,
+        "right": 720,
+        "top": 145
+      },
+      "isCheckable": false,
+      "isChecked": false,
+      "isClickable": true,
+      "isEditable": false,
+      "isEnabled": true,
+      "isFocusable": true,
+      "isFocused": false,
+      "isLongClickable": false,
+      "isPassword": false,
+      "isScrollable": false,
+      "maxTextLength": -1,
+      "packageName": "cn.amazon.mShop.android",
+      "text": ""
+    },
+    {
+      "className": "android.view.View",
+      "descriptionText": "ref\u003dmh_cnm_spl_5?_encoding\u003dUTF8\u0026node\u003d2107177071\u0026pf_rd_s\u003dgrid-top-4\u0026pf_rd_t\u003dGateway\u0026pf_rd_i\u003dmobile\u0026pf_rd_m\u003dA1AJ19PSB66TGU\u0026pf_rd_r\u003dVWK3J1E862R1HHQMRT24\u0026pf_rd_p\u003dfe3144df-2f48-4ab7-a4a5-a1d8540b7b85",
+      "inParentBounds": {
+        "bottom": 947,
+        "left": 0,
+        "right": 180,
+        "top": 843
+      },
+      "inScreenBounds": {
+        "bottom": -107,
+        "left": 0,
+        "right": 360,
+        "top": 145
+      },
+      "isCheckable": false,
+      "isChecked": false,
+      "isClickable": true,
+      "isEditable": false,
+      "isEnabled": true,
+      "isFocusable": true,
+      "isFocused": false,
+      "isLongClickable": false,
+      "isPassword": false,
+      "isScrollable": false,
+      "maxTextLength": -1,
+      "packageName": "cn.amazon.mShop.android",
+      "text": ""
+    },
+    {
+      "className": "android.view.View",
+      "descriptionText": "ref\u003dmh_cnm_spl_6?_encoding\u003dUTF8\u0026node\u003d2258552071\u0026pf_rd_s\u003dgrid-top-4\u0026pf_rd_t\u003dGateway\u0026pf_rd_i\u003dmobile\u0026pf_rd_m\u003dA1AJ19PSB66TGU\u0026pf_rd_r\u003dVWK3J1E862R1HHQMRT24\u0026pf_rd_p\u003dfe3144df-2f48-4ab7-a4a5-a1d8540b7b85",
+      "inParentBounds": {
+        "bottom": 947,
+        "left": 180,
+        "right": 360,
+        "top": 843
+      },
+      "inScreenBounds": {
+        "bottom": -107,
+        "left": 360,
+        "right": 720,
+        "top": 145
+      },
+      "isCheckable": false,
+      "isChecked": false,
+      "isClickable": true,
+      "isEditable": false,
+      "isEnabled": true,
+      "isFocusable": true,
+      "isFocused": false,
+      "isLongClickable": false,
+      "isPassword": false,
+      "isScrollable": false,
+      "maxTextLength": -1,
+      "packageName": "cn.amazon.mShop.android",
+      "text": ""
+    },
+    {
+      "className": "android.view.View",
+      "descriptionText": "海外购镇店之宝限时钜惠",
+      "inParentBounds": {
+        "bottom": 997,
+        "left": 15,
+        "right": 345,
+        "top": 951
+      },
+      "inScreenBounds": {
+        "bottom": -7,
+        "left": 30,
+        "right": 690,
+        "top": 145
+      },
+      "isCheckable": false,
+      "isChecked": false,
+      "isClickable": true,
+      "isEditable": false,
+      "isEnabled": true,
+      "isFocusable": false,
+      "isFocused": false,
+      "isLongClickable": false,
+      "isPassword": false,
+      "isScrollable": false,
+      "maxTextLength": -1,
+      "packageName": "cn.amazon.mShop.android",
+      "text": ""
+    },
+    {
+      "className": "android.view.View",
+      "descriptionText": "精选露得清等护肤促销 ￥49.54 - ￥762.15 距结束 13:36:41 ",
+      "inParentBounds": {
+        "bottom": 1097,
+        "left": 15,
+        "right": 345,
+        "top": 996
+      },
+      "inScreenBounds": {
+        "bottom": 193,
+        "left": 30,
+        "right": 690,
+        "top": 145
+      },
+      "isCheckable": false,
+      "isChecked": false,
+      "isClickable": true,
+      "isEditable": false,
+      "isEnabled": true,
+      "isFocusable": true,
+      "isFocused": false,
+      "isLongClickable": false,
+      "isPassword": false,
+      "isScrollable": false,
+      "maxTextLength": -1,
+      "packageName": "cn.amazon.mShop.android",
+      "text": ""
+    },
+    {
+      "className": "android.view.View",
+      "descriptionText": "BaByliss 促销 ￥175.59 - ￥315.12 距结束 14:36:41 ",
+      "inParentBounds": {
+        "bottom": 1202,
+        "left": 15,
+        "right": 345,
+        "top": 1101
+      },
+      "inScreenBounds": {
+        "bottom": 403,
+        "left": 30,
+        "right": 690,
+        "top": 201
+      },
+      "isCheckable": false,
+      "isChecked": false,
+      "isClickable": true,
+      "isEditable": false,
+      "isEnabled": true,
+      "isFocusable": true,
+      "isFocused": false,
+      "isLongClickable": false,
+      "isPassword": false,
+      "isScrollable": false,
+      "maxTextLength": -1,
+      "packageName": "cn.amazon.mShop.android",
+      "text": ""
+    },
+    {
+      "className": "android.view.View",
+      "descriptionText": "Learning Resources Botley编码机器人活动 玩具套装(适用年龄：5岁+) 促销 限量37380件 ￥268.80 距结束 22:36:41 ",
+      "inParentBounds": {
+        "bottom": 1307,
+        "left": 15,
+        "right": 345,
+        "top": 1206
+      },
+      "inScreenBounds": {
+        "bottom": 613,
+        "left": 30,
+        "right": 690,
+        "top": 411
+      },
+      "isCheckable": false,
+      "isChecked": false,
+      "isClickable": true,
+      "isEditable": false,
+      "isEnabled": true,
+      "isFocusable": true,
+      "isFocused": false,
+      "isLongClickable": false,
+      "isPassword": false,
+      "isScrollable": false,
+      "maxTextLength": -1,
+      "packageName": "cn.amazon.mShop.android",
+      "text": ""
+    },
+    {
+      "className": "android.view.View",
+      "descriptionText": "Esprit等精选服饰大促 ￥45.47 - ￥1879.67 距结束 13:36:41 ",
+      "inParentBounds": {
+        "bottom": 1412,
+        "left": 15,
+        "right": 345,
+        "top": 1311
+      },
+      "inScreenBounds": {
+        "bottom": 823,
+        "left": 30,
+        "right": 690,
+        "top": 621
+      },
+      "isCheckable": false,
+      "isChecked": false,
+      "isClickable": true,
+      "isEditable": false,
+      "isEnabled": true,
+      "isFocusable": true,
+      "isFocused": false,
+      "isLongClickable": false,
+      "isPassword": false,
+      "isScrollable": false,
+      "maxTextLength": -1,
+      "packageName": "cn.amazon.mShop.android",
+      "text": ""
+    },
+    {
+      "className": "android.view.View",
+      "descriptionText": "Magnet Build, VTech 伟易达, Learning Resources 促销 ￥44.66 - ￥377.01 距结束 22:36:41 ",
+      "inParentBounds": {
+        "bottom": 1517,
+        "left": 15,
+        "right": 345,
+        "top": 1416
+      },
+      "inScreenBounds": {
+        "bottom": 1033,
+        "left": 30,
+        "right": 690,
+        "top": 831
+      },
+      "isCheckable": false,
+      "isChecked": false,
+      "isClickable": true,
+      "isEditable": false,
+      "isEnabled": true,
+      "isFocusable": true,
+      "isFocused": false,
+      "isLongClickable": false,
+      "isPassword": false,
+      "isScrollable": false,
+      "maxTextLength": -1,
+      "packageName": "cn.amazon.mShop.android",
+      "text": ""
+    },
+    {
+      "className": "android.view.View",
+      "descriptionText": "精选游戏促销 ￥48.83 - ￥240.08 距结束 13:36:41 ",
+      "inParentBounds": {
+        "bottom": 1622,
+        "left": 15,
+        "right": 345,
+        "top": 1521
+      },
+      "inScreenBounds": {
+        "bottom": 1086,
+        "left": 30,
+        "right": 690,
+        "top": 1041
+      },
+      "isCheckable": false,
+      "isChecked": false,
+      "isClickable": true,
+      "isEditable": false,
+      "isEnabled": true,
+      "isFocusable": true,
+      "isFocused": false,
+      "isLongClickable": false,
+      "isPassword": false,
+      "isScrollable": false,
+      "maxTextLength": -1,
+      "packageName": "cn.amazon.mShop.android",
+      "text": ""
+    },
+    {
+      "className": "android.view.View",
+      "descriptionText": "〉 查看更多劲爆折扣",
+      "inParentBounds": {
+        "bottom": 45,
+        "left": 0,
+        "right": 330,
+        "top": 0
+      },
+      "inScreenBounds": {
+        "bottom": 1086,
+        "left": 30,
+        "right": 690,
+        "top": 1241
+      },
+      "isCheckable": false,
+      "isChecked": false,
+      "isClickable": true,
+      "isEditable": false,
+      "isEnabled": true,
+      "isFocusable": true,
+      "isFocused": false,
+      "isLongClickable": false,
+      "isPassword": false,
+      "isScrollable": false,
+      "maxTextLength": -1,
+      "packageName": "cn.amazon.mShop.android",
+      "text": ""
+    },
+    {
+      "className": "android.view.View",
+      "descriptionText": "进口优选",
+      "inParentBounds": {
+        "bottom": 1720,
+        "left": 15,
+        "right": 95,
+        "top": 1695
+      },
+      "inScreenBounds": {
+        "bottom": 1086,
+        "left": 30,
+        "right": 190,
+        "top": 1389
+      },
+      "isCheckable": false,
+      "isChecked": false,
+      "isClickable": true,
+      "isEditable": false,
+      "isEnabled": true,
+      "isFocusable": false,
+      "isFocused": false,
+      "isLongClickable": false,
+      "isPassword": false,
+      "isScrollable": false,
+      "maxTextLength": -1,
+      "packageName": "cn.amazon.mShop.android",
+      "text": ""
+    },
+    {
+      "className": "android.view.View",
+      "descriptionText": "全球推荐",
+      "inParentBounds": {
+        "bottom": 1716,
+        "left": 100,
+        "right": 152,
+        "top": 1700
+      },
+      "inScreenBounds": {
+        "bottom": 1086,
+        "left": 200,
+        "right": 304,
+        "top": 1399
+      },
+      "isCheckable": false,
+      "isChecked": false,
+      "isClickable": true,
+      "isEditable": false,
+      "isEnabled": true,
+      "isFocusable": false,
+      "isFocused": false,
+      "isLongClickable": false,
+      "isPassword": false,
+      "isScrollable": false,
+      "maxTextLength": -1,
+      "packageName": "cn.amazon.mShop.android",
+      "text": ""
+    },
+    {
+      "className": "android.view.View",
+      "descriptionText": "查看更多",
+      "inParentBounds": {
+        "bottom": 1716,
+        "left": 293,
+        "right": 345,
+        "top": 1700
+      },
+      "inScreenBounds": {
+        "bottom": 1086,
+        "left": 586,
+        "right": 690,
+        "top": 1399
+      },
+      "isCheckable": false,
+      "isChecked": false,
+      "isClickable": true,
+      "isEditable": false,
+      "isEnabled": true,
+      "isFocusable": false,
+      "isFocused": false,
+      "isLongClickable": false,
+      "isPassword": false,
+      "isScrollable": false,
+      "maxTextLength": -1,
+      "packageName": "cn.amazon.mShop.android",
+      "text": ""
+    },
+    {
+      "className": "android.view.View",
+      "descriptionText": "Philips飞利浦 电动牙刷 钻石亮白型",
+      "inParentBounds": {
+        "bottom": 1782,
+        "left": 185,
+        "right": 335,
+        "top": 1745
+      },
+      "inScreenBounds": {
+        "bottom": 1086,
+        "left": 370,
+        "right": 670,
+        "top": 1489
+      },
+      "isCheckable": false,
+      "isChecked": false,
+      "isClickable": true,
+      "isEditable": false,
+      "isEnabled": true,
+      "isFocusable": false,
+      "isFocused": false,
+      "isLongClickable": false,
+      "isPassword": false,
+      "isScrollable": false,
+      "maxTextLength": -1,
+      "packageName": "cn.amazon.mShop.android",
+      "text": ""
+    },
+    {
+      "className": "android.view.View",
+      "descriptionText": "全球专业牙科人士推荐。时尚声波品牌，自适应清洁刷头可以在短短两周内消除多达10倍的斑块。",
+      "inParentBounds": {
+        "bottom": 1862,
+        "left": 185,
+        "right": 335,
+        "top": 1791
+      },
+      "inScreenBounds": {
+        "bottom": 1086,
+        "left": 370,
+        "right": 670,
+        "top": 1581
+      },
+      "isCheckable": false,
+      "isChecked": false,
+      "isClickable": true,
+      "isEditable": false,
+      "isEnabled": true,
+      "isFocusable": false,
+      "isFocused": false,
+      "isLongClickable": false,
+      "isPassword": false,
+      "isScrollable": false,
+      "maxTextLength": -1,
+      "packageName": "cn.amazon.mShop.android",
+      "text": ""
+    },
+    {
+      "className": "android.view.View",
+      "descriptionText": "",
+      "inParentBounds": {
+        "bottom": 1961,
+        "left": -29,
+        "right": 29,
+        "top": 1903
+      },
+      "inScreenBounds": {
+        "bottom": 1086,
+        "left": -58,
+        "right": 58,
+        "top": 1805
+      },
+      "isCheckable": false,
+      "isChecked": false,
+      "isClickable": false,
+      "isEditable": false,
+      "isEnabled": true,
+      "isFocusable": false,
+      "isFocused": false,
+      "isLongClickable": false,
+      "isPassword": false,
+      "isScrollable": false,
+      "maxTextLength": -1,
+      "packageName": "cn.amazon.mShop.android",
+      "text": ""
+    },
+    {
+      "className": "android.view.View",
+      "descriptionText": "",
+      "inParentBounds": {
+        "bottom": 1961,
+        "left": 31,
+        "right": 89,
+        "top": 1903
+      },
+      "inScreenBounds": {
+        "bottom": 1086,
+        "left": 62,
+        "right": 178,
+        "top": 1805
+      },
+      "isCheckable": false,
+      "isChecked": false,
+      "isClickable": false,
+      "isEditable": false,
+      "isEnabled": true,
+      "isFocusable": false,
+      "isFocused": false,
+      "isLongClickable": false,
+      "isPassword": false,
+      "isScrollable": false,
+      "maxTextLength": -1,
+      "packageName": "cn.amazon.mShop.android",
+      "text": ""
+    },
+    {
+      "className": "android.view.View",
+      "descriptionText": "",
+      "inParentBounds": {
+        "bottom": 1961,
+        "left": 91,
+        "right": 149,
+        "top": 1903
+      },
+      "inScreenBounds": {
+        "bottom": 1086,
+        "left": 182,
+        "right": 298,
+        "top": 1805
+      },
+      "isCheckable": false,
+      "isChecked": false,
+      "isClickable": false,
+      "isEditable": false,
+      "isEnabled": true,
+      "isFocusable": false,
+      "isFocused": false,
+      "isLongClickable": false,
+      "isPassword": false,
+      "isScrollable": false,
+      "maxTextLength": -1,
+      "packageName": "cn.amazon.mShop.android",
+      "text": ""
+    },
+    {
+      "className": "android.view.View",
+      "descriptionText": "",
+      "inParentBounds": {
+        "bottom": 1961,
+        "left": 151,
+        "right": 209,
+        "top": 1903
+      },
+      "inScreenBounds": {
+        "bottom": 1086,
+        "left": 302,
+        "right": 418,
+        "top": 1805
+      },
+      "isCheckable": false,
+      "isChecked": false,
+      "isClickable": false,
+      "isEditable": false,
+      "isEnabled": true,
+      "isFocusable": false,
+      "isFocused": false,
+      "isLongClickable": false,
+      "isPassword": false,
+      "isScrollable": false,
+      "maxTextLength": -1,
+      "packageName": "cn.amazon.mShop.android",
+      "text": ""
+    },
+    {
+      "className": "android.view.View",
+      "descriptionText": "",
+      "inParentBounds": {
+        "bottom": 1961,
+        "left": 211,
+        "right": 269,
+        "top": 1903
+      },
+      "inScreenBounds": {
+        "bottom": 1086,
+        "left": 422,
+        "right": 538,
+        "top": 1805
+      },
+      "isCheckable": false,
+      "isChecked": false,
+      "isClickable": false,
+      "isEditable": false,
+      "isEnabled": true,
+      "isFocusable": false,
+      "isFocused": false,
+      "isLongClickable": false,
+      "isPassword": false,
+      "isScrollable": false,
+      "maxTextLength": -1,
+      "packageName": "cn.amazon.mShop.android",
+      "text": ""
+    },
+    {
+      "className": "android.view.View",
+      "descriptionText": "",
+      "inParentBounds": {
+        "bottom": 1961,
+        "left": 271,
+        "right": 329,
+        "top": 1903
+      },
+      "inScreenBounds": {
+        "bottom": 1086,
+        "left": 542,
+        "right": 658,
+        "top": 1805
+      },
+      "isCheckable": false,
+      "isChecked": false,
+      "isClickable": false,
+      "isEditable": false,
+      "isEnabled": true,
+      "isFocusable": false,
+      "isFocused": false,
+      "isLongClickable": false,
+      "isPassword": false,
+      "isScrollable": false,
+      "maxTextLength": -1,
+      "packageName": "cn.amazon.mShop.android",
+      "text": ""
+    },
+    {
+      "className": "android.view.View",
+      "descriptionText": "",
+      "inParentBounds": {
+        "bottom": 1961,
+        "left": 331,
+        "right": 389,
+        "top": 1903
+      },
+      "inScreenBounds": {
+        "bottom": 1086,
+        "left": 662,
+        "right": 778,
+        "top": 1805
+      },
+      "isCheckable": false,
+      "isChecked": false,
+      "isClickable": false,
+      "isEditable": false,
+      "isEnabled": true,
+      "isFocusable": false,
+      "isFocused": false,
+      "isLongClickable": false,
+      "isPassword": false,
+      "isScrollable": false,
+      "maxTextLength": -1,
+      "packageName": "cn.amazon.mShop.android",
+      "text": ""
+    },
+    {
+      "className": "android.view.View",
+      "descriptionText": "全球品牌精选 查看更多 ",
+      "inParentBounds": {
+        "bottom": 2039,
+        "left": 15,
+        "right": 345,
+        "top": 1993
+      },
+      "inScreenBounds": {
+        "bottom": 1086,
+        "left": 30,
+        "right": 690,
+        "top": 1985
+      },
+      "isCheckable": false,
+      "isChecked": false,
+      "isClickable": true,
+      "isEditable": false,
+      "isEnabled": true,
+      "isFocusable": true,
+      "isFocused": false,
+      "isLongClickable": false,
+      "isPassword": false,
+      "isScrollable": false,
+      "maxTextLength": -1,
+      "packageName": "cn.amazon.mShop.android",
+      "text": ""
+    },
+    {
+      "className": "android.view.View",
+      "descriptionText": "Click here to view details",
+      "inParentBounds": {
+        "bottom": 2202,
+        "left": 15,
+        "right": 179,
+        "top": 2038
+      },
+      "inScreenBounds": {
+        "bottom": 1086,
+        "left": 30,
+        "right": 358,
+        "top": 2075
+      },
+      "isCheckable": false,
+      "isChecked": false,
+      "isClickable": true,
+      "isEditable": false,
+      "isEnabled": true,
+      "isFocusable": true,
+      "isFocused": false,
+      "isLongClickable": false,
+      "isPassword": false,
+      "isScrollable": false,
+      "maxTextLength": -1,
+      "packageName": "cn.amazon.mShop.android",
+      "text": ""
+    },
+    {
+      "className": "android.view.View",
+      "descriptionText": "Click here to view details",
+      "inParentBounds": {
+        "bottom": 2119,
+        "left": 181,
+        "right": 345,
+        "top": 2038
+      },
+      "inScreenBounds": {
+        "bottom": 1086,
+        "left": 362,
+        "right": 690,
+        "top": 2075
+      },
+      "isCheckable": false,
+      "isChecked": false,
+      "isClickable": true,
+      "isEditable": false,
+      "isEnabled": true,
+      "isFocusable": true,
+      "isFocused": false,
+      "isLongClickable": false,
+      "isPassword": false,
+      "isScrollable": false,
+      "maxTextLength": -1,
+      "packageName": "cn.amazon.mShop.android",
+      "text": ""
+    },
+    {
+      "className": "android.view.View",
+      "descriptionText": "Click here to view details",
+      "inParentBounds": {
+        "bottom": 2202,
+        "left": 181,
+        "right": 345,
+        "top": 2121
+      },
+      "inScreenBounds": {
+        "bottom": 1086,
+        "left": 362,
+        "right": 690,
+        "top": 2241
+      },
+      "isCheckable": false,
+      "isChecked": false,
+      "isClickable": true,
+      "isEditable": false,
+      "isEnabled": true,
+      "isFocusable": true,
+      "isFocused": false,
+      "isLongClickable": false,
+      "isPassword": false,
+      "isScrollable": false,
+      "maxTextLength": -1,
+      "packageName": "cn.amazon.mShop.android",
+      "text": ""
+    },
+    {
+      "className": "android.view.View",
+      "descriptionText": "Click here to view details",
+      "inParentBounds": {
+        "bottom": 54,
+        "left": 0,
+        "right": 81,
+        "top": 0
+      },
+      "inScreenBounds": {
+        "bottom": 1086,
+        "left": 30,
+        "right": 192,
+        "top": 2407
+      },
+      "isCheckable": false,
+      "isChecked": false,
+      "isClickable": true,
+      "isEditable": false,
+      "isEnabled": true,
+      "isFocusable": true,
+      "isFocused": false,
+      "isLongClickable": false,
+      "isPassword": false,
+      "isScrollable": false,
+      "maxTextLength": -1,
+      "packageName": "cn.amazon.mShop.android",
+      "text": ""
+    },
+    {
+      "className": "android.view.View",
+      "descriptionText": "Click here to view details",
+      "inParentBounds": {
+        "bottom": 54,
+        "left": 0,
+        "right": 81,
+        "top": 0
+      },
+      "inScreenBounds": {
+        "bottom": 1086,
+        "left": 196,
+        "right": 358,
+        "top": 2407
+      },
+      "isCheckable": false,
+      "isChecked": false,
+      "isClickable": true,
+      "isEditable": false,
+      "isEnabled": true,
+      "isFocusable": true,
+      "isFocused": false,
+      "isLongClickable": false,
+      "isPassword": false,
+      "isScrollable": false,
+      "maxTextLength": -1,
+      "packageName": "cn.amazon.mShop.android",
+      "text": ""
+    },
+    {
+      "className": "android.view.View",
+      "descriptionText": "Click here to view details",
+      "inParentBounds": {
+        "bottom": 54,
+        "left": 0,
+        "right": 81,
+        "top": 0
+      },
+      "inScreenBounds": {
+        "bottom": 1086,
+        "left": 362,
+        "right": 524,
+        "top": 2407
+      },
+      "isCheckable": false,
+      "isChecked": false,
+      "isClickable": true,
+      "isEditable": false,
+      "isEnabled": true,
+      "isFocusable": true,
+      "isFocused": false,
+      "isLongClickable": false,
+      "isPassword": false,
+      "isScrollable": false,
+      "maxTextLength": -1,
+      "packageName": "cn.amazon.mShop.android",
+      "text": ""
+    },
+    {
+      "className": "android.view.View",
+      "descriptionText": "Click here to view details",
+      "inParentBounds": {
+        "bottom": 54,
+        "left": 0,
+        "right": 81,
+        "top": 0
+      },
+      "inScreenBounds": {
+        "bottom": 1086,
+        "left": 528,
+        "right": 690,
+        "top": 2407
+      },
+      "isCheckable": false,
+      "isChecked": false,
+      "isClickable": true,
+      "isEditable": false,
+      "isEnabled": true,
+      "isFocusable": true,
+      "isFocused": false,
+      "isLongClickable": false,
+      "isPassword": false,
+      "isScrollable": false,
+      "maxTextLength": -1,
+      "packageName": "cn.amazon.mShop.android",
+      "text": ""
+    },
+    {
+      "className": "android.view.View",
+      "descriptionText": "Click here to view details",
+      "inParentBounds": {
+        "bottom": 54,
+        "left": 0,
+        "right": 81,
+        "top": 0
+      },
+      "inScreenBounds": {
+        "bottom": 1086,
+        "left": 30,
+        "right": 192,
+        "top": 2519
+      },
+      "isCheckable": false,
+      "isChecked": false,
+      "isClickable": true,
+      "isEditable": false,
+      "isEnabled": true,
+      "isFocusable": true,
+      "isFocused": false,
+      "isLongClickable": false,
+      "isPassword": false,
+      "isScrollable": false,
+      "maxTextLength": -1,
+      "packageName": "cn.amazon.mShop.android",
+      "text": ""
+    },
+    {
+      "className": "android.view.View",
+      "descriptionText": "Click here to view details",
+      "inParentBounds": {
+        "bottom": 54,
+        "left": 0,
+        "right": 81,
+        "top": 0
+      },
+      "inScreenBounds": {
+        "bottom": 1086,
+        "left": 196,
+        "right": 358,
+        "top": 2519
+      },
+      "isCheckable": false,
+      "isChecked": false,
+      "isClickable": true,
+      "isEditable": false,
+      "isEnabled": true,
+      "isFocusable": true,
+      "isFocused": false,
+      "isLongClickable": false,
+      "isPassword": false,
+      "isScrollable": false,
+      "maxTextLength": -1,
+      "packageName": "cn.amazon.mShop.android",
+      "text": ""
+    },
+    {
+      "className": "android.view.View",
+      "descriptionText": "Click here to view details",
+      "inParentBounds": {
+        "bottom": 54,
+        "left": 0,
+        "right": 81,
+        "top": 0
+      },
+      "inScreenBounds": {
+        "bottom": 1086,
+        "left": 362,
+        "right": 524,
+        "top": 2519
+      },
+      "isCheckable": false,
+      "isChecked": false,
+      "isClickable": true,
+      "isEditable": false,
+      "isEnabled": true,
+      "isFocusable": true,
+      "isFocused": false,
+      "isLongClickable": false,
+      "isPassword": false,
+      "isScrollable": false,
+      "maxTextLength": -1,
+      "packageName": "cn.amazon.mShop.android",
+      "text": ""
+    },
+    {
+      "className": "android.view.View",
+      "descriptionText": "Click here to view details",
+      "inParentBounds": {
+        "bottom": 54,
+        "left": 0,
+        "right": 81,
+        "top": 0
+      },
+      "inScreenBounds": {
+        "bottom": 1086,
+        "left": 528,
+        "right": 690,
+        "top": 2519
+      },
+      "isCheckable": false,
+      "isChecked": false,
+      "isClickable": true,
+      "isEditable": false,
+      "isEnabled": true,
+      "isFocusable": true,
+      "isFocused": false,
+      "isLongClickable": false,
+      "isPassword": false,
+      "isScrollable": false,
+      "maxTextLength": -1,
+      "packageName": "cn.amazon.mShop.android",
+      "text": ""
+    },
+    {
+      "className": "android.view.View",
+      "descriptionText": "亚马逊畅销榜",
+      "inParentBounds": {
+        "bottom": 35,
+        "left": 0,
+        "right": 120,
+        "top": 10
+      },
+      "inScreenBounds": {
+        "bottom": 1086,
+        "left": 30,
+        "right": 270,
+        "top": 2685
+      },
+      "isCheckable": false,
+      "isChecked": false,
+      "isClickable": true,
+      "isEditable": false,
+      "isEnabled": true,
+      "isFocusable": true,
+      "isFocused": false,
+      "isLongClickable": false,
+      "isPassword": false,
+      "isScrollable": false,
+      "maxTextLength": -1,
+      "packageName": "cn.amazon.mShop.android",
+      "text": ""
+    },
+    {
+      "className": "android.view.View",
+      "descriptionText": "更多品类",
+      "inParentBounds": {
+        "bottom": 31,
+        "left": 278,
+        "right": 330,
+        "top": 15
+      },
+      "inScreenBounds": {
+        "bottom": 1086,
+        "left": 586,
+        "right": 690,
+        "top": 2695
+      },
+      "isCheckable": false,
+      "isChecked": false,
+      "isClickable": true,
+      "isEditable": false,
+      "isEnabled": true,
+      "isFocusable": true,
+      "isFocused": false,
+      "isLongClickable": false,
+      "isPassword": false,
+      "isScrollable": false,
+      "maxTextLength": -1,
+      "packageName": "cn.amazon.mShop.android",
+      "text": ""
+    },
+    {
+      "className": "android.view.View",
+      "descriptionText": "洁面工具",
+      "inParentBounds": {
+        "bottom": 2409,
+        "left": 22,
+        "right": 338,
+        "top": 2388
+      },
+      "inScreenBounds": {
+        "bottom": 1086,
+        "left": 44,
+        "right": 676,
+        "top": 2775
+      },
+      "isCheckable": false,
+      "isChecked": false,
+      "isClickable": true,
+      "isEditable": false,
+      "isEnabled": true,
+      "isFocusable": true,
+      "isFocused": false,
+      "isLongClickable": false,
+      "isPassword": false,
+      "isScrollable": false,
+      "maxTextLength": -1,
+      "packageName": "cn.amazon.mShop.android",
+      "text": ""
+    },
+    {
+      "className": "android.view.View",
+      "descriptionText": "Clarisonic 科莱丽 Mia Prima面部清洁设备 洁面仪 ￥560.42",
+      "inParentBounds": {
+        "bottom": 2577,
+        "left": 22,
+        "right": 125,
+        "top": 2416
+      },
+      "inScreenBounds": {
+        "bottom": 1086,
+        "left": 44,
+        "right": 250,
+        "top": 2831
+      },
+      "isCheckable": false,
+      "isChecked": false,
+      "isClickable": true,
+      "isEditable": false,
+      "isEnabled": true,
+      "isFocusable": true,
+      "isFocused": false,
+      "isLongClickable": false,
+      "isPassword": false,
+      "isScrollable": false,
+      "maxTextLength": -1,
+      "packageName": "cn.amazon.mShop.android",
+      "text": ""
+    },
+    {
+      "className": "android.view.View",
+      "descriptionText": "FOREO 斐珞尔 LUNA 迷你2 净透洁面仪 紫红色 适合各种肤质，USB充电 (温馨提示： 产地具体以实物为准） ￥619.24",
+      "inParentBounds": {
+        "bottom": 2577,
+        "left": 128,
+        "right": 232,
+        "top": 2416
+      },
+      "inScreenBounds": {
+        "bottom": 1086,
+        "left": 256,
+        "right": 464,
+        "top": 2831
+      },
+      "isCheckable": false,
+      "isChecked": false,
+      "isClickable": true,
+      "isEditable": false,
+      "isEnabled": true,
+      "isFocusable": true,
+      "isFocused": false,
+      "isLongClickable": false,
+      "isPassword": false,
+      "isScrollable": false,
+      "maxTextLength": -1,
+      "packageName": "cn.amazon.mShop.android",
+      "text": ""
+    },
+    {
+      "className": "android.view.View",
+      "descriptionText": "Clarisonic 科莱丽 洁面刷头 深入毛孔 一对，1包（1 x 2件） ￥259.84",
+      "inParentBounds": {
+        "bottom": 2577,
+        "left": 234,
+        "right": 338,
+        "top": 2416
+      },
+      "inScreenBounds": {
+        "bottom": 1086,
+        "left": 468,
+        "right": 676,
+        "top": 2831
+      },
+      "isCheckable": false,
+      "isChecked": false,
+      "isClickable": true,
+      "isEditable": false,
+      "isEnabled": true,
+      "isFocusable": true,
+      "isFocused": false,
+      "isLongClickable": false,
+      "isPassword": false,
+      "isScrollable": false,
+      "maxTextLength": -1,
+      "packageName": "cn.amazon.mShop.android",
+      "text": ""
+    },
+    {
+      "className": "android.view.View",
+      "descriptionText": "click the banner to know more about our product",
+      "inParentBounds": {
+        "bottom": 2755,
+        "left": 0,
+        "right": 360,
+        "top": 2604
+      },
+      "inScreenBounds": {
+        "bottom": 1086,
+        "left": 0,
+        "right": 720,
+        "top": 3207
+      },
+      "isCheckable": false,
+      "isChecked": false,
+      "isClickable": true,
+      "isEditable": false,
+      "isEnabled": true,
+      "isFocusable": true,
+      "isFocused": false,
+      "isLongClickable": false,
+      "isPassword": false,
+      "isScrollable": false,
+      "maxTextLength": -1,
+      "packageName": "cn.amazon.mShop.android",
+      "text": ""
+    },
+    {
+      "className": "android.view.View",
+      "descriptionText": "经典89元起 ",
+      "inParentBounds": {
+        "bottom": 111,
+        "left": 0,
+        "right": 100,
+        "top": 0
+      },
+      "inScreenBounds": {
+        "bottom": 1086,
+        "left": 32,
+        "right": 232,
+        "top": 3533
+      },
+      "isCheckable": false,
+      "isChecked": false,
+      "isClickable": true,
+      "isEditable": false,
+      "isEnabled": true,
+      "isFocusable": true,
+      "isFocused": false,
+      "isLongClickable": false,
+      "isPassword": false,
+      "isScrollable": false,
+      "maxTextLength": -1,
+      "packageName": "cn.amazon.mShop.android",
+      "text": ""
+    },
+    {
+      "className": "android.view.View",
+      "descriptionText": "酥香79元起 ",
+      "inParentBounds": {
+        "bottom": 111,
+        "left": 0,
+        "right": 100,
+        "top": 0
+      },
+      "inScreenBounds": {
+        "bottom": 1086,
+        "left": 264,
+        "right": 464,
+        "top": 3533
+      },
+      "isCheckable": false,
+      "isChecked": false,
+      "isClickable": true,
+      "isEditable": false,
+      "isEnabled": true,
+      "isFocusable": true,
+      "isFocused": false,
+      "isLongClickable": false,
+      "isPassword": false,
+      "isScrollable": false,
+      "maxTextLength": -1,
+      "packageName": "cn.amazon.mShop.android",
+      "text": ""
+    },
+    {
+      "className": "android.view.View",
+      "descriptionText": "浓郁119元起 ",
+      "inParentBounds": {
+        "bottom": 111,
+        "left": 0,
+        "right": 100,
+        "top": 0
+      },
+      "inScreenBounds": {
+        "bottom": 1086,
+        "left": 496,
+        "right": 696,
+        "top": 3533
+      },
+      "isCheckable": false,
+      "isChecked": false,
+      "isClickable": true,
+      "isEditable": false,
+      "isEnabled": true,
+      "isFocusable": true,
+      "isFocused": false,
+      "isLongClickable": false,
+      "isPassword": false,
+      "isScrollable": false,
+      "maxTextLength": -1,
+      "packageName": "cn.amazon.mShop.android",
+      "text": ""
+    },
+    {
+      "className": "android.view.View",
+      "descriptionText": "原味69元起 ",
+      "inParentBounds": {
+        "bottom": 111,
+        "left": 0,
+        "right": 100,
+        "top": 0
+      },
+      "inScreenBounds": {
+        "bottom": 1086,
+        "left": 728,
+        "right": 928,
+        "top": 3533
+      },
+      "isCheckable": false,
+      "isChecked": false,
+      "isClickable": true,
+      "isEditable": false,
+      "isEnabled": true,
+      "isFocusable": true,
+      "isFocused": false,
+      "isLongClickable": false,
+      "isPassword": false,
+      "isScrollable": false,
+      "maxTextLength": -1,
+      "packageName": "cn.amazon.mShop.android",
+      "text": ""
+    },
+    {
+      "className": "android.view.View",
+      "descriptionText": "乐趣59元起 ",
+      "inParentBounds": {
+        "bottom": 111,
+        "left": 0,
+        "right": 100,
+        "top": 0
+      },
+      "inScreenBounds": {
+        "bottom": 1086,
+        "left": 960,
+        "right": 1160,
+        "top": 3533
+      },
+      "isCheckable": false,
+      "isChecked": false,
+      "isClickable": true,
+      "isEditable": false,
+      "isEnabled": true,
+      "isFocusable": true,
+      "isFocused": false,
+      "isLongClickable": false,
+      "isPassword": false,
+      "isScrollable": false,
+      "maxTextLength": -1,
+      "packageName": "cn.amazon.mShop.android",
+      "text": ""
+    },
+    {
+      "className": "android.view.View",
+      "descriptionText": "防蛀69元起 ",
+      "inParentBounds": {
+        "bottom": 111,
+        "left": 0,
+        "right": 100,
+        "top": 0
+      },
+      "inScreenBounds": {
+        "bottom": 1086,
+        "left": 1192,
+        "right": 1392,
+        "top": 3533
+      },
+      "isCheckable": false,
+      "isChecked": false,
+      "isClickable": true,
+      "isEditable": false,
+      "isEnabled": true,
+      "isFocusable": true,
+      "isFocused": false,
+      "isLongClickable": false,
+      "isPassword": false,
+      "isScrollable": false,
+      "maxTextLength": -1,
+      "packageName": "cn.amazon.mShop.android",
+      "text": ""
+    },
+    {
+      "className": "android.view.View",
+      "descriptionText": "查看更多 ",
+      "inParentBounds": {
+        "bottom": 110,
+        "left": 1,
+        "right": 99,
+        "top": 1
+      },
+      "inScreenBounds": {
+        "bottom": 1086,
+        "left": 1426,
+        "right": 1622,
+        "top": 3535
+      },
+      "isCheckable": false,
+      "isChecked": false,
+      "isClickable": true,
+      "isEditable": false,
+      "isEnabled": true,
+      "isFocusable": true,
+      "isFocused": false,
+      "isLongClickable": false,
+      "isPassword": false,
+      "isScrollable": false,
+      "maxTextLength": -1,
+      "packageName": "cn.amazon.mShop.android",
+      "text": ""
+    },
+    {
+      "className": "android.view.View",
+      "descriptionText": "click the banner to know more about our product",
+      "inParentBounds": {
+        "bottom": 3050,
+        "left": 0,
+        "right": 360,
+        "top": 2899
+      },
+      "inScreenBounds": {
+        "bottom": 1086,
+        "left": 0,
+        "right": 720,
+        "top": 3797
+      },
+      "isCheckable": false,
+      "isChecked": false,
+      "isClickable": true,
+      "isEditable": false,
+      "isEnabled": true,
+      "isFocusable": true,
+      "isFocused": false,
+      "isLongClickable": false,
+      "isPassword": false,
+      "isScrollable": false,
+      "maxTextLength": -1,
+      "packageName": "cn.amazon.mShop.android",
+      "text": ""
+    },
+    {
+      "className": "android.view.View",
+      "descriptionText": "Crayola 绘儿乐 140件产品美术套装，彩虹灵感美术盒，便携式美术\u0026涂色用品，儿童礼品，适合 5 岁、6 岁、7 岁、8 岁儿童 price ",
+      "inParentBounds": {
+        "bottom": 160,
+        "left": 0,
+        "right": 95,
+        "top": 0
+      },
+      "inScreenBounds": {
+        "bottom": 1086,
+        "left": 32,
+        "right": 222,
+        "top": 4123
+      },
+      "isCheckable": false,
+      "isChecked": false,
+      "isClickable": true,
+      "isEditable": false,
+      "isEnabled": true,
+      "isFocusable": true,
+      "isFocused": false,
+      "isLongClickable": false,
+      "isPassword": false,
+      "isScrollable": false,
+      "maxTextLength": -1,
+      "packageName": "cn.amazon.mShop.android",
+      "text": ""
+    },
+    {
+      "className": "android.view.View",
+      "descriptionText": "Lee 女式运动系列 TOTAL 自由直筒牛仔裤 price ",
+      "inParentBounds": {
+        "bottom": 160,
+        "left": 0,
+        "right": 95,
+        "top": 0
+      },
+      "inScreenBounds": {
+        "bottom": 1086,
+        "left": 254,
+        "right": 444,
+        "top": 4123
+      },
+      "isCheckable": false,
+      "isChecked": false,
+      "isClickable": true,
+      "isEditable": false,
+      "isEnabled": true,
+      "isFocusable": true,
+      "isFocused": false,
+      "isLongClickable": false,
+      "isPassword": false,
+      "isScrollable": false,
+      "maxTextLength": -1,
+      "packageName": "cn.amazon.mShop.android",
+      "text": ""
+    },
+    {
+      "className": "android.view.View",
+      "descriptionText": "stila 丝荻拉 Correct \u0026 Perfect 遮瑕调色盘 price ",
+      "inParentBounds": {
+        "bottom": 160,
+        "left": 0,
+        "right": 95,
+        "top": 0
+      },
+      "inScreenBounds": {
+        "bottom": 1086,
+        "left": 476,
+        "right": 666,
+        "top": 4123
+      },
+      "isCheckable": false,
+      "isChecked": false,
+      "isClickable": true,
+      "isEditable": false,
+      "isEnabled": true,
+      "isFocusable": true,
+      "isFocused": false,
+      "isLongClickable": false,
+      "isPassword": false,
+      "isScrollable": false,
+      "maxTextLength": -1,
+      "packageName": "cn.amazon.mShop.android",
+      "text": ""
+    },
+    {
+      "className": "android.view.View",
+      "descriptionText": "[Amazon.co.jp限定] Philips 飞利浦 9000 系列 男士 电动剃须刀 72 枚刀片 旋转式 浴室剃须刀 可整体清洗 附带修剪器、洁面刷 S9090/43 price ",
+      "inParentBounds": {
+        "bottom": 160,
+        "left": 0,
+        "right": 95,
+        "top": 0
+      },
+      "inScreenBounds": {
+        "bottom": 1086,
+        "left": 698,
+        "right": 888,
+        "top": 4123
+      },
+      "isCheckable": false,
+      "isChecked": false,
+      "isClickable": true,
+      "isEditable": false,
+      "isEnabled": true,
+      "isFocusable": true,
+      "isFocused": false,
+      "isLongClickable": false,
+      "isPassword": false,
+      "isScrollable": false,
+      "maxTextLength": -1,
+      "packageName": "cn.amazon.mShop.android",
+      "text": ""
+    },
+    {
+      "className": "android.view.View",
+      "descriptionText": "Philips 飞利浦Sonicare DiamondClean钻石亮白型 3代电动牙刷 粉红色 (英国版2孔浴室插头，通用电压，仅需转换插头，附带智能USB旅行充电盒) price ",
+      "inParentBounds": {
+        "bottom": 160,
+        "left": 0,
+        "right": 95,
+        "top": 0
+      },
+      "inScreenBounds": {
+        "bottom": 1086,
+        "left": 920,
+        "right": 1110,
+        "top": 4123
+      },
+      "isCheckable": false,
+      "isChecked": false,
+      "isClickable": true,
+      "isEditable": false,
+      "isEnabled": true,
+      "isFocusable": true,
+      "isFocused": false,
+      "isLongClickable": false,
+      "isPassword": false,
+      "isScrollable": false,
+      "maxTextLength": -1,
+      "packageName": "cn.amazon.mShop.android",
+      "text": ""
+    },
+    {
+      "className": "android.view.View",
+      "descriptionText": "Clarks 男式 Tilden Plain 皮鞋 price ",
+      "inParentBounds": {
+        "bottom": 160,
+        "left": 0,
+        "right": 95,
+        "top": 0
+      },
+      "inScreenBounds": {
+        "bottom": 1086,
+        "left": 1142,
+        "right": 1332,
+        "top": 4123
+      },
+      "isCheckable": false,
+      "isChecked": false,
+      "isClickable": true,
+      "isEditable": false,
+      "isEnabled": true,
+      "isFocusable": true,
+      "isFocused": false,
+      "isLongClickable": false,
+      "isPassword": false,
+      "isScrollable": false,
+      "maxTextLength": -1,
+      "packageName": "cn.amazon.mShop.android",
+      "text": ""
+    },
+    {
+      "className": "android.view.View",
+      "descriptionText": "THERMOS 膳魔师 真空隔热吸管水杯 蓝色 0.4L FHL-401F BL price ",
+      "inParentBounds": {
+        "bottom": 160,
+        "left": 0,
+        "right": 95,
+        "top": 0
+      },
+      "inScreenBounds": {
+        "bottom": 1086,
+        "left": 1364,
+        "right": 1554,
+        "top": 4123
+      },
+      "isCheckable": false,
+      "isChecked": false,
+      "isClickable": true,
+      "isEditable": false,
+      "isEnabled": true,
+      "isFocusable": true,
+      "isFocused": false,
+      "isLongClickable": false,
+      "isPassword": false,
+      "isScrollable": false,
+      "maxTextLength": -1,
+      "packageName": "cn.amazon.mShop.android",
+      "text": ""
+    },
+    {
+      "className": "android.view.View",
+      "descriptionText": "Daniel Wellington 丹尼尔•惠灵顿 瑞典品牌 Classic系列 银色表圈表扣 石英手表 女士腕表 DW00100051（原型号0606DW） price ",
+      "inParentBounds": {
+        "bottom": 160,
+        "left": 0,
+        "right": 95,
+        "top": 0
+      },
+      "inScreenBounds": {
+        "bottom": 1086,
+        "left": 1586,
+        "right": 1776,
+        "top": 4123
+      },
+      "isCheckable": false,
+      "isChecked": false,
+      "isClickable": true,
+      "isEditable": false,
+      "isEnabled": true,
+      "isFocusable": true,
+      "isFocused": false,
+      "isLongClickable": false,
+      "isPassword": false,
+      "isScrollable": false,
+      "maxTextLength": -1,
+      "packageName": "cn.amazon.mShop.android",
+      "text": ""
+    },
+    {
+      "className": "android.view.View",
+      "descriptionText": "Enfamil 美赞臣 A.R. 1段 0-12个月 婴儿 防吐配方奶粉 913g 盒装（新旧包装随机发货）添加大米淀粉 price ",
+      "inParentBounds": {
+        "bottom": 160,
+        "left": 0,
+        "right": 95,
+        "top": 0
+      },
+      "inScreenBounds": {
+        "bottom": 1086,
+        "left": 1808,
+        "right": 1998,
+        "top": 4123
+      },
+      "isCheckable": false,
+      "isChecked": false,
+      "isClickable": true,
+      "isEditable": false,
+      "isEnabled": true,
+      "isFocusable": true,
+      "isFocused": false,
+      "isLongClickable": false,
+      "isPassword": false,
+      "isScrollable": false,
+      "maxTextLength": -1,
+      "packageName": "cn.amazon.mShop.android",
+      "text": ""
+    },
+    {
+      "className": "android.view.View",
+      "descriptionText": "查看更多 ",
+      "inParentBounds": {
+        "bottom": 96,
+        "left": 0,
+        "right": 95,
+        "top": 0
+      },
+      "inScreenBounds": {
+        "bottom": 1086,
+        "left": 2030,
+        "right": 2220,
+        "top": 4123
+      },
+      "isCheckable": false,
+      "isChecked": false,
+      "isClickable": true,
+      "isEditable": false,
+      "isEnabled": true,
+      "isFocusable": true,
+      "isFocused": false,
+      "isLongClickable": false,
+      "isPassword": false,
+      "isScrollable": false,
+      "maxTextLength": -1,
+      "packageName": "cn.amazon.mShop.android",
+      "text": ""
+    },
+    {
+      "className": "android.view.View",
+      "descriptionText": "click the banner to know more about our product",
+      "inParentBounds": {
+        "bottom": 3392,
+        "left": 0,
+        "right": 360,
+        "top": 3241
+      },
+      "inScreenBounds": {
+        "bottom": 1086,
+        "left": 0,
+        "right": 720,
+        "top": 4481
+      },
+      "isCheckable": false,
+      "isChecked": false,
+      "isClickable": true,
+      "isEditable": false,
+      "isEnabled": true,
+      "isFocusable": true,
+      "isFocused": false,
+      "isLongClickable": false,
+      "isPassword": false,
+      "isScrollable": false,
+      "maxTextLength": -1,
+      "packageName": "cn.amazon.mShop.android",
+      "text": ""
+    },
+    {
+      "className": "android.view.View",
+      "descriptionText": "下单售价5折 经典畅销新低价 ",
+      "inParentBounds": {
+        "bottom": 111,
+        "left": 0,
+        "right": 100,
+        "top": 0
+      },
+      "inScreenBounds": {
+        "bottom": 1086,
+        "left": 32,
+        "right": 232,
+        "top": 4807
+      },
+      "isCheckable": false,
+      "isChecked": false,
+      "isClickable": true,
+      "isEditable": false,
+      "isEnabled": true,
+      "isFocusable": true,
+      "isFocused": false,
+      "isLongClickable": false,
+      "isPassword": false,
+      "isScrollable": false,
+      "maxTextLength": -1,
+      "packageName": "cn.amazon.mShop.android",
+      "text": ""
+    },
+    {
+      "className": "android.view.View",
+      "descriptionText": "低至3.99元 今日特价书 ",
+      "inParentBounds": {
+        "bottom": 111,
+        "left": 0,
+        "right": 100,
+        "top": 0
+      },
+      "inScreenBounds": {
+        "bottom": 1086,
+        "left": 264,
+        "right": 464,
+        "top": 4807
+      },
+      "isCheckable": false,
+      "isChecked": false,
+      "isClickable": true,
+      "isEditable": false,
+      "isEnabled": true,
+      "isFocusable": true,
+      "isFocused": false,
+      "isLongClickable": false,
+      "isPassword": false,
+      "isScrollable": false,
+      "maxTextLength": -1,
+      "packageName": "cn.amazon.mShop.android",
+      "text": ""
+    },
+    {
+      "className": "android.view.View",
+      "descriptionText": "下单售价8折 微信绑定帐号 ",
+      "inParentBounds": {
+        "bottom": 111,
+        "left": 0,
+        "right": 100,
+        "top": 0
+      },
+      "inScreenBounds": {
+        "bottom": 1086,
+        "left": 496,
+        "right": 696,
+        "top": 4807
+      },
+      "isCheckable": false,
+      "isChecked": false,
+      "isClickable": true,
+      "isEditable": false,
+      "isEnabled": true,
+      "isFocusable": true,
+      "isFocused": false,
+      "isLongClickable": false,
+      "isPassword": false,
+      "isScrollable": false,
+      "maxTextLength": -1,
+      "packageName": "cn.amazon.mShop.android",
+      "text": ""
+    },
+    {
+      "className": "android.view.View",
+      "descriptionText": "特价专区 每日好书更新 ",
+      "inParentBounds": {
+        "bottom": 111,
+        "left": 0,
+        "right": 100,
+        "top": 0
+      },
+      "inScreenBounds": {
+        "bottom": 1086,
+        "left": 728,
+        "right": 928,
+        "top": 4807
+      },
+      "isCheckable": false,
+      "isChecked": false,
+      "isClickable": true,
+      "isEditable": false,
+      "isEnabled": true,
+      "isFocusable": true,
+      "isFocused": false,
+      "isLongClickable": false,
+      "isPassword": false,
+      "isScrollable": false,
+      "maxTextLength": -1,
+      "packageName": "cn.amazon.mShop.android",
+      "text": ""
+    },
+    {
+      "className": "android.view.View",
+      "descriptionText": "好剧读出来 影视原著0元起 ",
+      "inParentBounds": {
+        "bottom": 111,
+        "left": 0,
+        "right": 100,
+        "top": 0
+      },
+      "inScreenBounds": {
+        "bottom": 1086,
+        "left": 960,
+        "right": 1160,
+        "top": 4807
+      },
+      "isCheckable": false,
+      "isChecked": false,
+      "isClickable": true,
+      "isEditable": false,
+      "isEnabled": true,
+      "isFocusable": true,
+      "isFocused": false,
+      "isLongClickable": false,
+      "isPassword": false,
+      "isScrollable": false,
+      "maxTextLength": -1,
+      "packageName": "cn.amazon.mShop.android",
+      "text": ""
+    },
+    {
+      "className": "android.view.View",
+      "descriptionText": "品质新书 好书先读为快 ",
+      "inParentBounds": {
+        "bottom": 111,
+        "left": 0,
+        "right": 100,
+        "top": 0
+      },
+      "inScreenBounds": {
+        "bottom": 1086,
+        "left": 1192,
+        "right": 1392,
+        "top": 4807
+      },
+      "isCheckable": false,
+      "isChecked": false,
+      "isClickable": true,
+      "isEditable": false,
+      "isEnabled": true,
+      "isFocusable": true,
+      "isFocused": false,
+      "isLongClickable": false,
+      "isPassword": false,
+      "isScrollable": false,
+      "maxTextLength": -1,
+      "packageName": "cn.amazon.mShop.android",
+      "text": ""
+    },
+    {
+      "className": "android.view.View",
+      "descriptionText": "查看更多 ",
+      "inParentBounds": {
+        "bottom": 110,
+        "left": 1,
+        "right": 99,
+        "top": 1
+      },
+      "inScreenBounds": {
+        "bottom": 1086,
+        "left": 1426,
+        "right": 1622,
+        "top": 4809
+      },
+      "isCheckable": false,
+      "isChecked": false,
+      "isClickable": true,
+      "isEditable": false,
+      "isEnabled": true,
+      "isFocusable": true,
+      "isFocused": false,
+      "isLongClickable": false,
+      "isPassword": false,
+      "isScrollable": false,
+      "maxTextLength": -1,
+      "packageName": "cn.amazon.mShop.android",
+      "text": ""
+    },
+    {
+      "className": "android.widget.RadioButton",
+      "descriptionText": "",
+      "inParentBounds": {
+        "bottom": 96,
+        "left": 524198,
+        "right": 524378,
+        "top": 0
+      },
+      "inScreenBounds": {
+        "bottom": 1184,
+        "left": 0,
+        "right": 180,
+        "top": 1088
+      },
+      "isCheckable": true,
+      "isChecked": true,
+      "isClickable": true,
+      "isEditable": false,
+      "isEnabled": true,
+      "isFocusable": true,
+      "isFocused": false,
+      "isLongClickable": false,
+      "isPassword": false,
+      "isScrollable": false,
+      "maxTextLength": -1,
+      "packageName": "cn.amazon.mShop.android",
+      "text": "首页"
+    },
+    {
+      "className": "android.widget.RadioButton",
+      "descriptionText": "",
+      "inParentBounds": {
+        "bottom": 96,
+        "left": 524198,
+        "right": 524378,
+        "top": 0
+      },
+      "inScreenBounds": {
+        "bottom": 1184,
+        "left": 180,
+        "right": 360,
+        "top": 1088
+      },
+      "isCheckable": true,
+      "isChecked": false,
+      "isClickable": true,
+      "isEditable": false,
+      "isEnabled": true,
+      "isFocusable": true,
+      "isFocused": false,
+      "isLongClickable": false,
+      "isPassword": false,
+      "isScrollable": false,
+      "maxTextLength": -1,
+      "packageName": "cn.amazon.mShop.android",
+      "text": "品类"
+    },
+    {
+      "className": "android.widget.RadioButton",
+      "descriptionText": "",
+      "inParentBounds": {
+        "bottom": 96,
+        "left": 524198,
+        "right": 524378,
+        "top": 0
+      },
+      "inScreenBounds": {
+        "bottom": 1184,
+        "left": 360,
+        "right": 540,
+        "top": 1088
+      },
+      "isCheckable": true,
+      "isChecked": false,
+      "isClickable": true,
+      "isEditable": false,
+      "isEnabled": true,
+      "isFocusable": true,
+      "isFocused": false,
+      "isLongClickable": false,
+      "isPassword": false,
+      "isScrollable": false,
+      "maxTextLength": -1,
+      "packageName": "cn.amazon.mShop.android",
+      "text": "发现"
+    },
+    {
+      "className": "android.widget.RadioButton",
+      "descriptionText": "",
+      "inParentBounds": {
+        "bottom": 96,
+        "left": 524198,
+        "right": 524378,
+        "top": 0
+      },
+      "inScreenBounds": {
+        "bottom": 1184,
+        "left": 540,
+        "right": 720,
+        "top": 1088
+      },
+      "isCheckable": true,
+      "isChecked": false,
+      "isClickable": true,
+      "isEditable": false,
+      "isEnabled": true,
+      "isFocusable": true,
+      "isFocused": false,
+      "isLongClickable": false,
+      "isPassword": false,
+      "isScrollable": false,
+      "maxTextLength": -1,
+      "packageName": "cn.amazon.mShop.android",
+      "text": "我的"
+    }
+  ]
+}
