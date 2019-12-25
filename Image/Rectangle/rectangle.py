@@ -10,6 +10,7 @@ import math
 
 import cv2
 import numpy as np
+node_list = []
 
 
 def cal_image_entropy(image):
@@ -80,7 +81,7 @@ def is_image_colorfulness(image_, threshold_):
 
 def is_picture(region_,  node_):
     # 判断控件是否是图片
-    # 通过类名判断是否是控件
+    # 通过类名判断是否是控件,ImageView,ImageButton
     if 'Image' in node_['className']:
         return True, (0, 0, 255)
     # 通过控件区域的颜色分布判断是否是控件
@@ -88,7 +89,15 @@ def is_picture(region_,  node_):
         return True, (0, 255, 0)
     else:
         # 不是图片控件则返回False
-        return False, (255, 0, 0)
+        return True, (255, 0, 0)
+
+def get_all_children(node_):
+    # 递归方式获取所有的子节点
+    if len(node_['children']) == 0:
+        node_list.append(node_)
+    else:
+        for i_ in node_['children']:
+            get_all_children(i_)
 
 
 def rectangle_and_get_information(json_file_, picture_file_):
@@ -109,8 +118,9 @@ def rectangle_and_get_information(json_file_, picture_file_):
     image = cv2.imread(picture_file_)
     with open(json_file_, 'rb+') as data_file:
         content = json.load(data_file)
-        nodes = content['nodes']
-        for node in nodes:
+        for i_ in content['nodeList']:
+            get_all_children(i_)
+        for node in node_list:
             if 0 <= node['inScreenBounds']['bottom'] <= content['event']['screenHeight'] and 0 <= node['inScreenBounds']['top'] <= content['event'] ['screenHeight'] and \
                     0 <= node['inScreenBounds']['left'] <= content['event']['screenWidth'] and 0 <= node['inScreenBounds']['right'] <= content['event']['screenWidth'] and \
                     node['inScreenBounds']['top'] < node['inScreenBounds']['bottom'] and \
@@ -140,6 +150,7 @@ def rectangle_and_get_information(json_file_, picture_file_):
                     image_average += cal_average_gray(region)
                     # 6.获取图片的对比度
                     image_contrast += cal_contrast(region)
+
     print(round(h_value, 2), round(s_value, 2), round(v_value), image_entropy, image_average, image_contrast)
     # 显示画过矩形框的图片
     cv2.namedWindow('draw_0', 0)
@@ -148,7 +159,7 @@ def rectangle_and_get_information(json_file_, picture_file_):
     cv2.destroyWindow("draw_0")
 
 if __name__ == '__main__':
-    str_ = '20191220161309499'
+    str_ = '20191225165230553'
     json_file = str_ + '.json'
     picture_file = str_ + '.png'
     rectangle_and_get_information(json_file, picture_file)
