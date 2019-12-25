@@ -1,0 +1,636 @@
+{
+  "event": {
+    "availMem": 932,
+    "eventTime": 20191225165548061,
+    "eventType": "TYPE_WINDOW_STATE_CHANGED",
+    "isChecked": false,
+    "isFullScreen": true,
+    "isPassword": false,
+    "isScrollable": false,
+    "screenHeight": 2560,
+    "screenWidth": 1440,
+    "source": {
+      "className": "android.widget.FrameLayout",
+      "descriptionText": "",
+      "id": -100,
+      "inParentBounds": {
+        "bottom": 2560,
+        "left": 0,
+        "right": 1440,
+        "top": 0
+      },
+      "inScreenBounds": {
+        "bottom": 2560,
+        "left": 0,
+        "right": 1440,
+        "top": 0
+      },
+      "isCheckable": false,
+      "isChecked": false,
+      "isClickable": false,
+      "isEditable": false,
+      "isEnabled": true,
+      "isFocusable": false,
+      "isFocused": false,
+      "isLongClickable": false,
+      "isPassword": false,
+      "isScrollable": false,
+      "maxTextLength": -1,
+      "packageName": "com.sina.weibo",
+      "parentId": -99,
+      "text": ""
+    },
+    "totalMem": 2777
+  },
+  "nodeList": [
+    {
+      "children": [
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "children": [
+                        {
+                          "children": [],
+                          "className": "android.widget.ImageButton",
+                          "descriptionText": "",
+                          "id": 5,
+                          "inParentBounds": {
+                            "bottom": 312,
+                            "left": 0,
+                            "right": 72,
+                            "top": 0
+                          },
+                          "inScreenBounds": {
+                            "bottom": 1301,
+                            "left": 0,
+                            "right": 72,
+                            "top": 989
+                          },
+                          "isCheckable": false,
+                          "isChecked": false,
+                          "isClickable": true,
+                          "isEditable": false,
+                          "isEnabled": true,
+                          "isFocusable": true,
+                          "isFocused": false,
+                          "isLongClickable": false,
+                          "isPassword": false,
+                          "isScrollable": false,
+                          "maxTextLength": -1,
+                          "packageName": "com.sec.android.easysidepanel",
+                          "parentId": 4,
+                          "text": ""
+                        },
+                        {
+                          "children": [],
+                          "className": "android.widget.ImageButton",
+                          "descriptionText": "",
+                          "id": 6,
+                          "inParentBounds": {
+                            "bottom": 312,
+                            "left": 0,
+                            "right": 48,
+                            "top": 0
+                          },
+                          "inScreenBounds": {
+                            "bottom": 1301,
+                            "left": 0,
+                            "right": 48,
+                            "top": 989
+                          },
+                          "isCheckable": false,
+                          "isChecked": false,
+                          "isClickable": false,
+                          "isEditable": false,
+                          "isEnabled": true,
+                          "isFocusable": true,
+                          "isFocused": false,
+                          "isLongClickable": false,
+                          "isPassword": false,
+                          "isScrollable": false,
+                          "maxTextLength": -1,
+                          "packageName": "com.sec.android.easysidepanel",
+                          "parentId": 4,
+                          "text": ""
+                        }
+                      ],
+                      "className": "android.widget.RelativeLayout",
+                      "descriptionText": "",
+                      "id": 4,
+                      "inParentBounds": {
+                        "bottom": 312,
+                        "left": 0,
+                        "right": 72,
+                        "top": 0
+                      },
+                      "inScreenBounds": {
+                        "bottom": 1301,
+                        "left": 0,
+                        "right": 72,
+                        "top": 989
+                      },
+                      "isCheckable": false,
+                      "isChecked": false,
+                      "isClickable": false,
+                      "isEditable": false,
+                      "isEnabled": true,
+                      "isFocusable": false,
+                      "isFocused": false,
+                      "isLongClickable": false,
+                      "isPassword": false,
+                      "isScrollable": false,
+                      "maxTextLength": -1,
+                      "packageName": "com.sec.android.easysidepanel",
+                      "parentId": 3,
+                      "text": ""
+                    }
+                  ],
+                  "className": "android.widget.FrameLayout",
+                  "descriptionText": "",
+                  "id": 3,
+                  "inParentBounds": {
+                    "bottom": 312,
+                    "left": 0,
+                    "right": 72,
+                    "top": 0
+                  },
+                  "inScreenBounds": {
+                    "bottom": 1301,
+                    "left": 0,
+                    "right": 72,
+                    "top": 989
+                  },
+                  "isCheckable": false,
+                  "isChecked": false,
+                  "isClickable": false,
+                  "isEditable": false,
+                  "isEnabled": true,
+                  "isFocusable": false,
+                  "isFocused": false,
+                  "isLongClickable": false,
+                  "isPassword": false,
+                  "isScrollable": false,
+                  "maxTextLength": -1,
+                  "packageName": "com.sec.android.easysidepanel",
+                  "parentId": 2,
+                  "text": ""
+                }
+              ],
+              "className": "android.widget.FrameLayout",
+              "descriptionText": "",
+              "id": 2,
+              "inParentBounds": {
+                "bottom": 312,
+                "left": 0,
+                "right": 72,
+                "top": 0
+              },
+              "inScreenBounds": {
+                "bottom": 1301,
+                "left": 0,
+                "right": 72,
+                "top": 989
+              },
+              "isCheckable": false,
+              "isChecked": false,
+              "isClickable": false,
+              "isEditable": false,
+              "isEnabled": true,
+              "isFocusable": false,
+              "isFocused": false,
+              "isLongClickable": false,
+              "isPassword": false,
+              "isScrollable": false,
+              "maxTextLength": -1,
+              "packageName": "com.sec.android.easysidepanel",
+              "parentId": 1,
+              "text": ""
+            }
+          ],
+          "className": "android.widget.FrameLayout",
+          "descriptionText": "",
+          "id": 1,
+          "inParentBounds": {
+            "bottom": 312,
+            "left": 0,
+            "right": 72,
+            "top": 0
+          },
+          "inScreenBounds": {
+            "bottom": 1301,
+            "left": 0,
+            "right": 72,
+            "top": 989
+          },
+          "isCheckable": false,
+          "isChecked": false,
+          "isClickable": false,
+          "isEditable": false,
+          "isEnabled": true,
+          "isFocusable": false,
+          "isFocused": false,
+          "isLongClickable": false,
+          "isPassword": false,
+          "isScrollable": false,
+          "maxTextLength": -1,
+          "packageName": "com.sec.android.easysidepanel",
+          "parentId": 0,
+          "text": ""
+        }
+      ],
+      "className": "android.widget.FrameLayout",
+      "descriptionText": "",
+      "id": 0,
+      "inParentBounds": {
+        "bottom": 312,
+        "left": 0,
+        "right": 72,
+        "top": 0
+      },
+      "inScreenBounds": {
+        "bottom": 1301,
+        "left": 0,
+        "right": 72,
+        "top": 989
+      },
+      "isCheckable": false,
+      "isChecked": false,
+      "isClickable": false,
+      "isEditable": false,
+      "isEnabled": true,
+      "isFocusable": false,
+      "isFocused": false,
+      "isLongClickable": false,
+      "isPassword": false,
+      "isScrollable": false,
+      "maxTextLength": -1,
+      "packageName": "com.sec.android.easysidepanel",
+      "parentId": -1,
+      "text": ""
+    },
+    {
+      "children": [
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "children": [
+                        {
+                          "children": [],
+                          "className": "android.widget.ImageView",
+                          "descriptionText": "",
+                          "id": 5,
+                          "inParentBounds": {
+                            "bottom": 2560,
+                            "left": 0,
+                            "right": 1440,
+                            "top": 0
+                          },
+                          "inScreenBounds": {
+                            "bottom": 2560,
+                            "left": 0,
+                            "right": 1440,
+                            "top": 0
+                          },
+                          "isCheckable": false,
+                          "isChecked": false,
+                          "isClickable": true,
+                          "isEditable": false,
+                          "isEnabled": true,
+                          "isFocusable": false,
+                          "isFocused": false,
+                          "isLongClickable": false,
+                          "isPassword": false,
+                          "isScrollable": false,
+                          "maxTextLength": -1,
+                          "packageName": "com.sina.weibo",
+                          "parentId": 4,
+                          "text": ""
+                        },
+                        {
+                          "children": [
+                            {
+                              "children": [
+                                {
+                                  "children": [],
+                                  "className": "android.widget.ImageView",
+                                  "descriptionText": "click_ad_common",
+                                  "id": 9,
+                                  "inParentBounds": {
+                                    "bottom": 333,
+                                    "left": 0,
+                                    "right": 1440,
+                                    "top": 0
+                                  },
+                                  "inScreenBounds": {
+                                    "bottom": 2074,
+                                    "left": 0,
+                                    "right": 1440,
+                                    "top": 1741
+                                  },
+                                  "isCheckable": false,
+                                  "isChecked": false,
+                                  "isClickable": false,
+                                  "isEditable": false,
+                                  "isEnabled": true,
+                                  "isFocusable": false,
+                                  "isFocused": false,
+                                  "isLongClickable": false,
+                                  "isPassword": false,
+                                  "isScrollable": false,
+                                  "maxTextLength": -1,
+                                  "packageName": "com.sina.weibo",
+                                  "parentId": 7,
+                                  "text": ""
+                                }
+                              ],
+                              "className": "android.widget.RelativeLayout",
+                              "descriptionText": "",
+                              "id": 7,
+                              "inParentBounds": {
+                                "bottom": 333,
+                                "left": 0,
+                                "right": 1440,
+                                "top": 0
+                              },
+                              "inScreenBounds": {
+                                "bottom": 2074,
+                                "left": 0,
+                                "right": 1440,
+                                "top": 1741
+                              },
+                              "isCheckable": false,
+                              "isChecked": false,
+                              "isClickable": false,
+                              "isEditable": false,
+                              "isEnabled": true,
+                              "isFocusable": false,
+                              "isFocused": false,
+                              "isLongClickable": false,
+                              "isPassword": false,
+                              "isScrollable": false,
+                              "maxTextLength": -1,
+                              "packageName": "com.sina.weibo",
+                              "parentId": 6,
+                              "text": ""
+                            },
+                            {
+                              "children": [
+                                {
+                                  "children": [],
+                                  "className": "android.widget.ImageView",
+                                  "descriptionText": "click_ad_skip",
+                                  "id": 10,
+                                  "inParentBounds": {
+                                    "bottom": 143,
+                                    "left": 0,
+                                    "right": 1440,
+                                    "top": 0
+                                  },
+                                  "inScreenBounds": {
+                                    "bottom": 2424,
+                                    "left": 0,
+                                    "right": 1440,
+                                    "top": 2281
+                                  },
+                                  "isCheckable": false,
+                                  "isChecked": false,
+                                  "isClickable": false,
+                                  "isEditable": false,
+                                  "isEnabled": true,
+                                  "isFocusable": false,
+                                  "isFocused": false,
+                                  "isLongClickable": false,
+                                  "isPassword": false,
+                                  "isScrollable": false,
+                                  "maxTextLength": -1,
+                                  "packageName": "com.sina.weibo",
+                                  "parentId": 8,
+                                  "text": ""
+                                }
+                              ],
+                              "className": "android.widget.RelativeLayout",
+                              "descriptionText": "",
+                              "id": 8,
+                              "inParentBounds": {
+                                "bottom": 143,
+                                "left": 0,
+                                "right": 1440,
+                                "top": 0
+                              },
+                              "inScreenBounds": {
+                                "bottom": 2424,
+                                "left": 0,
+                                "right": 1440,
+                                "top": 2281
+                              },
+                              "isCheckable": false,
+                              "isChecked": false,
+                              "isClickable": false,
+                              "isEditable": false,
+                              "isEnabled": true,
+                              "isFocusable": false,
+                              "isFocused": false,
+                              "isLongClickable": false,
+                              "isPassword": false,
+                              "isScrollable": false,
+                              "maxTextLength": -1,
+                              "packageName": "com.sina.weibo",
+                              "parentId": 6,
+                              "text": ""
+                            }
+                          ],
+                          "className": "android.widget.RelativeLayout",
+                          "descriptionText": "",
+                          "id": 6,
+                          "inParentBounds": {
+                            "bottom": 2560,
+                            "left": 0,
+                            "right": 1440,
+                            "top": 0
+                          },
+                          "inScreenBounds": {
+                            "bottom": 2560,
+                            "left": 0,
+                            "right": 1440,
+                            "top": 0
+                          },
+                          "isCheckable": false,
+                          "isChecked": false,
+                          "isClickable": false,
+                          "isEditable": false,
+                          "isEnabled": true,
+                          "isFocusable": false,
+                          "isFocused": false,
+                          "isLongClickable": false,
+                          "isPassword": false,
+                          "isScrollable": false,
+                          "maxTextLength": -1,
+                          "packageName": "com.sina.weibo",
+                          "parentId": 4,
+                          "text": ""
+                        }
+                      ],
+                      "className": "android.widget.RelativeLayout",
+                      "descriptionText": "",
+                      "id": 4,
+                      "inParentBounds": {
+                        "bottom": 2560,
+                        "left": 0,
+                        "right": 1440,
+                        "top": 0
+                      },
+                      "inScreenBounds": {
+                        "bottom": 2560,
+                        "left": 0,
+                        "right": 1440,
+                        "top": 0
+                      },
+                      "isCheckable": false,
+                      "isChecked": false,
+                      "isClickable": false,
+                      "isEditable": false,
+                      "isEnabled": true,
+                      "isFocusable": false,
+                      "isFocused": false,
+                      "isLongClickable": false,
+                      "isPassword": false,
+                      "isScrollable": false,
+                      "maxTextLength": -1,
+                      "packageName": "com.sina.weibo",
+                      "parentId": 3,
+                      "text": ""
+                    }
+                  ],
+                  "className": "android.widget.RelativeLayout",
+                  "descriptionText": "",
+                  "id": 3,
+                  "inParentBounds": {
+                    "bottom": 2560,
+                    "left": 0,
+                    "right": 1440,
+                    "top": 0
+                  },
+                  "inScreenBounds": {
+                    "bottom": 2560,
+                    "left": 0,
+                    "right": 1440,
+                    "top": 0
+                  },
+                  "isCheckable": false,
+                  "isChecked": false,
+                  "isClickable": false,
+                  "isEditable": false,
+                  "isEnabled": true,
+                  "isFocusable": false,
+                  "isFocused": false,
+                  "isLongClickable": false,
+                  "isPassword": false,
+                  "isScrollable": false,
+                  "maxTextLength": -1,
+                  "packageName": "com.sina.weibo",
+                  "parentId": 2,
+                  "text": ""
+                }
+              ],
+              "className": "android.widget.FrameLayout",
+              "descriptionText": "",
+              "id": 2,
+              "inParentBounds": {
+                "bottom": 2560,
+                "left": 0,
+                "right": 1440,
+                "top": 0
+              },
+              "inScreenBounds": {
+                "bottom": 2560,
+                "left": 0,
+                "right": 1440,
+                "top": 0
+              },
+              "isCheckable": false,
+              "isChecked": false,
+              "isClickable": false,
+              "isEditable": false,
+              "isEnabled": true,
+              "isFocusable": false,
+              "isFocused": false,
+              "isLongClickable": false,
+              "isPassword": false,
+              "isScrollable": false,
+              "maxTextLength": -1,
+              "packageName": "com.sina.weibo",
+              "parentId": 1,
+              "text": ""
+            }
+          ],
+          "className": "android.widget.LinearLayout",
+          "descriptionText": "",
+          "id": 1,
+          "inParentBounds": {
+            "bottom": 2560,
+            "left": 0,
+            "right": 1440,
+            "top": 0
+          },
+          "inScreenBounds": {
+            "bottom": 2560,
+            "left": 0,
+            "right": 1440,
+            "top": 0
+          },
+          "isCheckable": false,
+          "isChecked": false,
+          "isClickable": false,
+          "isEditable": false,
+          "isEnabled": true,
+          "isFocusable": false,
+          "isFocused": false,
+          "isLongClickable": false,
+          "isPassword": false,
+          "isScrollable": false,
+          "maxTextLength": -1,
+          "packageName": "com.sina.weibo",
+          "parentId": 0,
+          "text": ""
+        }
+      ],
+      "className": "android.widget.FrameLayout",
+      "descriptionText": "",
+      "id": 0,
+      "inParentBounds": {
+        "bottom": 2560,
+        "left": 0,
+        "right": 1440,
+        "top": 0
+      },
+      "inScreenBounds": {
+        "bottom": 2560,
+        "left": 0,
+        "right": 1440,
+        "top": 0
+      },
+      "isCheckable": false,
+      "isChecked": false,
+      "isClickable": false,
+      "isEditable": false,
+      "isEnabled": true,
+      "isFocusable": false,
+      "isFocused": false,
+      "isLongClickable": false,
+      "isPassword": false,
+      "isScrollable": false,
+      "maxTextLength": -1,
+      "packageName": "com.sina.weibo",
+      "parentId": -1,
+      "text": ""
+    }
+  ]
+}
