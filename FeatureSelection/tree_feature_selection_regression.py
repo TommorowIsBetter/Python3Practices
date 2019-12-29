@@ -23,3 +23,5 @@ print(clf.feature_importances_)
 model = SelectFromModel(clf, threshold=0.01, prefit=True)
 X_new = model.transform(X)
 print(X_new.shape)
+print("被选中的特征：", boston.feature_names[model.get_support()])
+
