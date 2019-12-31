@@ -7,8 +7,6 @@
 """
 from sklearn.datasets import load_boston
 from sklearn.ensemble import RandomForestRegressor
-import numpy as np
-
 # Load boston housing dataset as an example
 from sklearn.feature_selection import SelectFromModel
 
