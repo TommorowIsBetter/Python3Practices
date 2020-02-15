@@ -42,6 +42,11 @@ def detect_outliers(df, n, features):
 
 # detect outliers from "Col1","Col2","Col3","Col4"
 df = pd.read_csv("data.csv")
-Outliers_to_drop = detect_outliers(df,2,["Col1","Col2","Col3","Col4"])
+print(df)
+# 每个样本最多允许两个异常值
+# Outliers_to_drop = detect_outliers(df, 2, ["Col1", "Col2", "Col3", "Col4"])
+# 此处是只针对标签一列进行异常值删除
+Outliers_to_drop = detect_outliers(df, 0, ["label"])
 # Drop outliers
-df = df.drop(Outliers_to_drop, axis = 0).reset_index(drop=True)
+df = df.drop(Outliers_to_drop, axis=0).reset_index(drop=True)
+print(df)
