@@ -86,6 +86,6 @@ def get_text_by_ocr(image_):
     print(text)
 
 if __name__ == '__main__':
-    image_file = './a.png'
+    image_file = './b.png'
     img = cv2.imread(image_file)
     get_text_by_ocr(img)
