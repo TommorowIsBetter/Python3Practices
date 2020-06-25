@@ -6,47 +6,61 @@
 @Time : 2019/10/7 18:13
 """
 import cv2
+import os
 import numpy as np
 
-img = cv2.imread('lines.png')
-gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
-edges = cv2.Canny(gray, 50, 150)
-# 最低线段的长度，小于这个值的线段被抛弃
-minLineLength = 100
-# 线段中点与点之间连接起来的最大距离，在此范围内才被认为是单行
-maxLineGap = 5
-# 100阈值，累加平面的阈值参数，即：识别某部分为图中的一条直线时它在累加平面必须达到的值，低于此值的直线将被忽略。
-lines = cv2.HoughLinesP(edges, 1, np.pi / 180, 100, minLineLength, maxLineGap)
-lines_list = []
-for i in range(len(lines)):
-    for x1, y1, x2, y2 in lines[i]:
-        lines_list.append([x1, y1, x2, y2])
-        cv2.line(img, (x1, y1), (x2, y2), (0, 255, 0), 2)
-# 把所有获取到的线段的纵坐标获取到
-lines_y = []
-for i in range(len(lines_list)):
-    lines_y.append(lines_list[i][1])
-# 删除所有多余的线段，有的是因为错误认为两条线段
-del_lines_list = []
-for i in range(len(lines_y)):
-    for j in range(len(lines_y))[i + 1:]:
-        if abs(lines_y[i] - lines_y[j]) <= 3:
-            del_lines_list.append(j)
-del_lines_list = list(set(del_lines_list))
-new_list = []
-for i in range(len(lines_list)):
-    if i not in del_lines_list:
-        new_list.append(lines_list[i])
-lines_list = new_list
-# 对获取到的线段进行裁剪
-count= 0
-for i in lines_list:
-    # 裁剪坐标为[y0:y1, x0:x1]
-    cropped = img[i[1] - 50:i[1], i[0]:i[2]]
-    count += 1
-    cv2.imwrite(str(count) + ".jpg", cropped)
-# 显示图片
-cv2.imshow("edges", edges)
-cv2.imshow("lines", img)
-cv2.waitKey()
-cv2.destroyAllWindows()
+
+def nothing():
+    pass
+
+
+# 设置展示图像的窗口大小
+cv2.namedWindow("canny", 0)
+cv2.resizeWindow("canny", 400, 800)
+
+cv2.namedWindow("rect", 0)
+cv2.resizeWindow("rect", 400, 800)
+
+# 将测试用的图片读入内存，放在数组中
+file_list = os.listdir('pictures')
+n = len(file_list)
+img_list = []
+for i in range(n):
+    pic_path = "pictures/" + file_list[i]
+    img = cv2.imread(pic_path)
+    img_list.append(img)
+
+# 设置canny参数初始值
+canny_min = 60
+canny_max = 130
+
+# 创建滚动条
+cv2.createTrackbar('canny_min', 'canny', canny_min, 255, nothing)
+cv2.createTrackbar('canny_max', 'canny', canny_max, 255, nothing)
+cv2.createTrackbar('pic_index', 'rect', 0, n - 1, nothing)
+cv2.createTrackbar('minLineLength', 'rect', 0, 1000, nothing)
+cv2.createTrackbar('maxLineGap', 'rect', 0, 100, nothing)
+
+while True:
+    i = cv2.getTrackbarPos('pic_index', 'rect')
+    img = img_list[i]
+    img_height, img_width = img.shape[:2]
+    img_size = img_width * img_height
+
+    img1 = img
+    # 对中值滤波后的图像做canny运算，得到二值图
+    canny_min = cv2.getTrackbarPos('canny_min', 'canny')
+    canny_max = cv2.getTrackbarPos('canny_max', 'canny')
+    canny = cv2.Canny(img1, canny_min, canny_max)
+    cv2.imshow('canny', canny)
+    min_line = cv2.getTrackbarPos('minLineLength', 'rect')
+    max_gap = cv2.getTrackbarPos('maxLineGap', 'rect')
+    lines = cv2.HoughLinesP(image=canny, rho=1, theta=np.pi / 180, threshold=100, minLineLength=min_line, maxLineGap=max_gap)
+    img2 = img.copy()
+    if lines is not None:
+        for i in range(len(lines)):
+            print(lines[i])
+            for x1, y1, x2, y2 in lines[i]:
+                cv2.line(img2, (x1, y1), (x2, y2), (255, 0, 0), 5)
+    cv2.imshow("rect", img2)
+    cv2.waitKey(30)
